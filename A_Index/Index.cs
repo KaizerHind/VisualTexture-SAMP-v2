@@ -12,6 +12,9 @@ namespace VisualTexture_v2
 {
     public partial class Index : Form
     {
+        public int xClick = 0, yClick = 0;
+        private const int topArea = 50;
+
         public Index()
         {
             InitializeComponent();
@@ -27,6 +30,45 @@ namespace VisualTexture_v2
             label6.Text = "VisualTexture has as its only purpose, to provide data to the user, in case the person does not have a";
             label7.Text = "network available, and information regarding pwn is needed quickly, or as mentioned above, we only";
             label8.Text = "provide more 'quick' information.";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void wikiSampToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            wikisamp Component1 = new wikisamp();
+            Component1.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if(e.Button != MouseButtons.Left)
+            {
+                xClick = e.X;
+                yClick = e.Y;
+            }
+            else
+            {
+                if (yClick <= topArea)
+                {
+                    this.Left = this.Left + (e.X - xClick);
+                    this.Top = this.Top + (e.Y - yClick);
+                }
+            }
         }
     }
 }

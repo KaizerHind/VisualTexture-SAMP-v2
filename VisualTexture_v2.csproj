@@ -31,9 +31,24 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Actualizacion|AnyCPU'">
+    <OutputPath>bin\Actualizacion\</OutputPath>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>visualicon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -53,8 +68,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="C_Options\wikisamp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C_Options\wikisamp.Designer.cs">
+      <DependentUpon>wikisamp.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="A_Index\Index.resx">
       <DependentUpon>Index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C_Options\wikisamp.resx">
+      <DependentUpon>wikisamp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -81,10 +105,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="B_Languages\" />
-    <Folder Include="C_Options\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\IMG\VisualTexture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="visualicon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
