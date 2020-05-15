@@ -38,6 +38,9 @@
   <PropertyGroup>
     <ApplicationIcon>visualicon.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>..\..\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
@@ -110,6 +113,7 @@
     <None Include="Content\IMG\VisualTexture.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Icon1.ico" />
     <Content Include="visualicon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -22,14 +22,15 @@ namespace VisualTexture_v2
 
         private void Index_Load(object sender, EventArgs e)
         {
-            label1.Text = "Thanks for using VisualTextures.";
+            /*label1.Text = "Thanks for using VisualTextures.";
             label2.Text = "This tool has been created in order to provide much faster information, when it comes";
             label3.Text = "to needing any type of information, with regard to: Functions, textures, objects, sounds, among others.";
             label4.Text = "At the moment, this tool is in the BETA Phase, we are constantly working to update the data and the";
             label5.Text = "content that is provided.";
             label6.Text = "VisualTexture has as its only purpose, to provide data to the user, in case the person does not have a";
             label7.Text = "network available, and information regarding pwn is needed quickly, or as mentioned above, we only";
-            label8.Text = "provide more 'quick' information.";
+            label8.Text = "provide more 'quick' information.";*/
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -44,14 +45,19 @@ namespace VisualTexture_v2
             Component1.Show();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void label1_MouseEnter(object sender, EventArgs e)
         {
-
+           
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        private void bunifuFlatButton1_MouseEnter(object sender, EventArgs e)
         {
+            
+        }
 
+        private void bunifuFlatButton2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
 
         private void menuStrip1_MouseMove(object sender, MouseEventArgs e)
