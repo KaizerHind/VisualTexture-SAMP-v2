@@ -38,6 +38,7 @@
   <PropertyGroup>
     <ApplicationIcon>visualicon.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup />
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
@@ -108,12 +109,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="B_Languages\" />
+    <Folder Include="Resources\Fonts\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Content\IMG\VisualTexture.png" />
+    <None Include="Resources\IMG\VisualTexture.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Icon1.ico" />
+    <None Include="Resources\home50px.png" />
+    <None Include="Resources\running50px.png" />
     <Content Include="visualicon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

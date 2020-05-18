@@ -22,3 +22,15 @@ C:\Users\DiegoAlex\Desktop\VisualTexturev_Pawn_SA-MP-v2\obj\Release\VisualTextur
 C:\Users\DiegoAlex\Desktop\VisualTexturev_Pawn_SA-MP-v2\obj\Release\VisualTexture_v2.pdb
 C:\Users\DiegoAlex\Desktop\VisualTexturev_Pawn_SA-MP-v2\bin\Release\Bunifu_UI_v1.5.3.dll
 C:\Users\DiegoAlex\Desktop\VisualTexturev_Pawn_SA-MP-v2\obj\Release\VisualTexture_v2.csproj.CopyComplete
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\bin\Release\VisualTexture_v2.exe.config
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\bin\Release\VisualTexture_v2.exe
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\bin\Release\VisualTexture_v2.pdb
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\Release\VisualTexture_v2.csprojAssemblyReference.cache
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\Release\VisualTexture_v2.Index.resources
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\Release\VisualTexture_v2.wikisamp.resources
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\Release\VisualTexture_v2.Properties.Resources.resources
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\Release\VisualTexture_v2.csproj.GenerateResource.cache
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\Release\VisualTexture_v2.csproj.CoreCompileInputs.cache
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\Release\VisualTexture_v2.csproj.CopyComplete
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\Release\VisualTexture_v2.exe
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\Release\VisualTexture_v2.pdb
