@@ -41,13 +41,6 @@ namespace VisualTexture_v2
         }
         
 
-        private void wikiSampToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            wikisamp Component1 = new wikisamp();
-            Component1.Show();
-        }
-
         private void btnClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -55,23 +48,22 @@ namespace VisualTexture_v2
 
         private void VAnimations_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            Animations Component1 = new Animations();
+            Component1.Show();
             LOGO.Visible = false;
             gb_text.Visible = false;
-            btnClose.Location = new Point(699, 0);
-            panel2.Width = 593;
-            this.Size = new Size(748, 429);
         }
 
         private void B_Index_Click(object sender, EventArgs e)
         {
             LOGO.Visible = true;
             gb_text.Visible = true;
-            btnClose.Location = new Point(664, 0);
-            panel2.Width = 553;
-
-            this.Size = new Size(708, 429);
+            /*btnClose.Location = new Point(699, 0);
+            panel2.Width = 593;
+            this.Size = new Size(748, 429);*/
         }
-
+        /* #################################### Mouse Settings ########################################## */
         private void Index_MouseDown(object sender, System.Windows.Forms.MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
@@ -98,5 +90,6 @@ namespace VisualTexture_v2
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
         }
+        /* ############################################################################################## */
     }
 }

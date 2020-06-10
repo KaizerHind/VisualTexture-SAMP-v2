@@ -261,7 +261,7 @@
             this.B_Index.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.B_Index.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.B_Index.BorderRadius = 0;
-            this.B_Index.ButtonText = "  Inicio";
+            this.B_Index.ButtonText = "  Home";
             this.B_Index.Cursor = System.Windows.Forms.Cursors.Hand;
             this.B_Index.DisabledColor = System.Drawing.Color.Gray;
             this.B_Index.Iconcolor = System.Drawing.Color.Transparent;
@@ -284,7 +284,7 @@
             this.B_Index.selected = false;
             this.B_Index.Size = new System.Drawing.Size(153, 45);
             this.B_Index.TabIndex = 6;
-            this.B_Index.Text = "  Inicio";
+            this.B_Index.Text = "  Home";
             this.B_Index.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.B_Index.Textcolor = System.Drawing.Color.White;
             this.B_Index.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

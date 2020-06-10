@@ -34,3 +34,4 @@ C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\Release\Visu
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\Release\VisualTexture_v2.csproj.CopyComplete
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\Release\VisualTexture_v2.exe
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\Release\VisualTexture_v2.pdb
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\Release\VisualTexture_v2.Animations.resources

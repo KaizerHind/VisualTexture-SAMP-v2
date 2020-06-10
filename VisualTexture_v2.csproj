@@ -64,6 +64,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="B_Sections\Animations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B_Sections\Animations.designer.cs">
+      <DependentUpon>Animations.cs</DependentUpon>
+    </Compile>
     <Compile Include="A_Index\Index.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     <Compile Include="C_Options\wikisamp.Designer.cs">
       <DependentUpon>wikisamp.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="B_Sections\Animations.resx">
+      <DependentUpon>Animations.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="A_Index\Index.resx">
       <DependentUpon>Index.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,7 +117,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="B_Languages\" />
     <Folder Include="Resources\Fonts\" />
   </ItemGroup>
   <ItemGroup>
