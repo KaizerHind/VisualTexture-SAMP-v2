@@ -201,31 +201,8 @@ namespace VisualTexture_v2
             "-  catch_box",
             "",
             ""});
-        }
-
-        private void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            switch (listBox1.FindString(listBox1.SelectedItem.ToString()))
-            {
-                case 0:
-                        pictureBox1.Visible = false;
-                        richTextBox1.Enabled = false;
-                        richTextBox1.Visible = false;
-                        listBox1.SelectedIndex = 0;
-                        richTextBox1.Text = "";
-                        break;
-
-                case 1:
-                        pictureBox1.Visible = true;
-                        richTextBox1.Visible = true;
-                        richTextBox1.ReadOnly = true;
-                        richTextBox1.Enabled = true;                        
-                        
-                        richTextBox1.Text = "new Variable" +
-                        "Variable = CreateActor(ID, X, Y, Z, RZ);" +
-                        "ApplyActorAnimation(Variable, PED, abseil, 4.0, 1, 1, 1, 0, 0)";
-                    break;
-            }
+            richTextBox1.Visible = false;
+            pictureBox1.Visible = false;
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -238,11 +215,332 @@ namespace VisualTexture_v2
             listBox1.Visible = true;
             richTextBox1.Visible = true;
             pictureBox1.Visible = true;
-            /*btnClose.Location = new Point(699, 0);
-            panel2.Width = 593;
-            this.Size = new Size(748, 429);*/
+        }
 
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (listBox1.FindString(listBox1.SelectedItem.ToString()))
+            {
+                case 0:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
 
+                    richTextBox1.Text = "";
+                    break;
+
+                case 1:
+                    pictureBox1.Visible = true;
+                    richTextBox1.Visible = true;
+                    richTextBox1.ReadOnly = true;
+                    richTextBox1.Enabled = true;
+
+                    richTextBox1.Text = "new Variable" +
+                    "Variable = CreateActor(ID, X, Y, Z, RZ);" +
+                    "ApplyActorAnimation(Variable, PED, abseil, 4.0, 1, 1, 1, 0, 0)";
+                    break;
+
+                case 2:
+                    pictureBox1.Visible = true;
+                    richTextBox1.Visible = true;
+                    richTextBox1.ReadOnly = true;
+                    richTextBox1.Enabled = true;
+
+                    richTextBox1.Text = "new Variable" +
+                    "Variable = CreateActor(ID, X, Y, Z, RZ);" +
+                    "ApplyActorAnimation(Variable, PED, ARRESTgun, 4.0, 1, 1, 1, 0, 0)";
+                    break;
+
+                case 57:
+                    //listBox1.SelectedIndex = 1;
+
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 58:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 60:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 61:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 65:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 66:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 79:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 80:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 87:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 88:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 99:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 100:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 106:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 107:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 115:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 116:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 119:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 120:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 123:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 124:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 127:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 128:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 131:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 132:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 137:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 138:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 157:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 158:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 163:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 164:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 169:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+
+                case 170:
+                    //listBox1.SelectedIndex = 1;
+                    pictureBox1.Visible = false;
+                    richTextBox1.Enabled = false;
+                    richTextBox1.Visible = false;
+
+                    richTextBox1.Text = "";
+                    break;
+            }
         }
 
         /* #################################### Mouse Settings ########################################## */
@@ -279,6 +577,7 @@ namespace VisualTexture_v2
             Index Component1 = new Index();
             Component1.Show();
         }
+
         /* ############################################################################################## */
     }
 }

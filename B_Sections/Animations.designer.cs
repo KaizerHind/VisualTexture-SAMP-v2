@@ -195,6 +195,7 @@
             // 
             this.richTextBox1.Location = new System.Drawing.Point(255, 448);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(517, 47);
             this.richTextBox1.TabIndex = 2;
             this.richTextBox1.Text = "";
@@ -215,6 +216,7 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(219, 472);
             this.listBox1.TabIndex = 0;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // Animations
             // 
