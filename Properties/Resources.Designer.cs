@@ -63,6 +63,16 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap art50px {
+            get {
+                object obj = ResourceManager.GetObject("art50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap home50px {
             get {
                 object obj = ResourceManager.GetObject("home50px", resourceCulture);
