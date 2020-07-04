@@ -8,11 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using CefSharp;
+using CefSharp.WinForms;
 
 namespace VisualTexture_v2
 {
     public partial class Animations : Form
     {
+        public ChromiumWebBrowser chromeBrowser;
+
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
 
@@ -25,6 +29,20 @@ namespace VisualTexture_v2
         public Animations()
         {
             InitializeComponent();
+            // Start the browser after initialize global component
+            InitializeChromium();
+        }
+
+        public void InitializeChromium()
+        {
+            CefSettings settings = new CefSettings();
+            // Initialize cef with the provided settings
+            Cef.Initialize(settings);
+            // Create a browser component
+            chromeBrowser = new ChromiumWebBrowser("http://ourcodeworld.com");
+            // Add it to the form and fill it to the form window.
+            this.Controls.Add(chromeBrowser);
+            chromeBrowser.Dock = DockStyle.Fill;
         }
 
         private void Animations_Load(object sender, EventArgs e)
@@ -202,20 +220,36 @@ namespace VisualTexture_v2
             "",
             ""});
             richTextBox1.Visible = false;
-            pictureBox1.Visible = false;
+            pvAnims.Visible = false;
         }
+
+        /* #################################### Sections Control ########################################## */
 
         private void btnClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void B_Animations_Click(object sender, EventArgs e)
+        private void B_Index_Click(object sender, EventArgs e)
         {
-            listBox1.Visible = true;
-            richTextBox1.Visible = true;
-            pictureBox1.Visible = true;
+            this.Hide();
+            Index Component1 = new Index();
+            Component1.Show();
         }
+
+        private void bTextures_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Textures Component1 = new Textures();
+            Component1.Show();
+        }
+
+        private void Animations_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Cef.Shutdown();
+        }
+
+        /* ############################################################################################## */
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -223,7 +257,7 @@ namespace VisualTexture_v2
             {
                 case 0:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -231,7 +265,7 @@ namespace VisualTexture_v2
                     break;
 
                 case 1:
-                    pictureBox1.Visible = true;
+                    pvAnims.Visible = true;
                     richTextBox1.Visible = true;
                     richTextBox1.ReadOnly = true;
                     richTextBox1.Enabled = true;
@@ -242,7 +276,7 @@ namespace VisualTexture_v2
                     break;
 
                 case 2:
-                    pictureBox1.Visible = true;
+                    pvAnims.Visible = true;
                     richTextBox1.Visible = true;
                     richTextBox1.ReadOnly = true;
                     richTextBox1.Enabled = true;
@@ -255,7 +289,7 @@ namespace VisualTexture_v2
                 case 57:
                     //listBox1.SelectedIndex = 1;
 
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -264,7 +298,7 @@ namespace VisualTexture_v2
 
                 case 58:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -273,7 +307,7 @@ namespace VisualTexture_v2
 
                 case 60:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -282,7 +316,7 @@ namespace VisualTexture_v2
 
                 case 61:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -291,7 +325,7 @@ namespace VisualTexture_v2
 
                 case 65:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -300,7 +334,7 @@ namespace VisualTexture_v2
 
                 case 66:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -309,7 +343,7 @@ namespace VisualTexture_v2
 
                 case 79:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -318,7 +352,7 @@ namespace VisualTexture_v2
 
                 case 80:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -327,7 +361,7 @@ namespace VisualTexture_v2
 
                 case 87:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -336,7 +370,7 @@ namespace VisualTexture_v2
 
                 case 88:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -345,7 +379,7 @@ namespace VisualTexture_v2
 
                 case 99:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -354,7 +388,7 @@ namespace VisualTexture_v2
 
                 case 100:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -363,7 +397,7 @@ namespace VisualTexture_v2
 
                 case 106:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -372,7 +406,7 @@ namespace VisualTexture_v2
 
                 case 107:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -381,7 +415,7 @@ namespace VisualTexture_v2
 
                 case 115:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -390,7 +424,7 @@ namespace VisualTexture_v2
 
                 case 116:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -399,7 +433,7 @@ namespace VisualTexture_v2
 
                 case 119:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -408,7 +442,7 @@ namespace VisualTexture_v2
 
                 case 120:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -417,7 +451,7 @@ namespace VisualTexture_v2
 
                 case 123:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -426,7 +460,7 @@ namespace VisualTexture_v2
 
                 case 124:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -435,7 +469,7 @@ namespace VisualTexture_v2
 
                 case 127:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -444,7 +478,7 @@ namespace VisualTexture_v2
 
                 case 128:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -453,7 +487,7 @@ namespace VisualTexture_v2
 
                 case 131:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -462,7 +496,7 @@ namespace VisualTexture_v2
 
                 case 132:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -471,7 +505,7 @@ namespace VisualTexture_v2
 
                 case 137:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -480,7 +514,7 @@ namespace VisualTexture_v2
 
                 case 138:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -489,7 +523,7 @@ namespace VisualTexture_v2
 
                 case 157:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -498,7 +532,7 @@ namespace VisualTexture_v2
 
                 case 158:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -507,7 +541,7 @@ namespace VisualTexture_v2
 
                 case 163:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -516,7 +550,7 @@ namespace VisualTexture_v2
 
                 case 164:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -525,7 +559,7 @@ namespace VisualTexture_v2
 
                 case 169:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -534,7 +568,7 @@ namespace VisualTexture_v2
 
                 case 170:
                     //listBox1.SelectedIndex = 1;
-                    pictureBox1.Visible = false;
+                    pvAnims.Visible = false;
                     richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
 
@@ -571,12 +605,6 @@ namespace VisualTexture_v2
             }
         }
 
-        private void B_Index_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Index Component1 = new Index();
-            Component1.Show();
-        }
 
         /* ############################################################################################## */
     }

@@ -31,24 +31,25 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Animations));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.bTextures = new Bunifu.Framework.UI.BunifuFlatButton();
             this.B_Index = new Bunifu.Framework.UI.BunifuFlatButton();
             this.B_Animations = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.btnClose = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pvAnims = new System.Windows.Forms.WebBrowser();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.bTextures);
             this.panel1.Controls.Add(this.B_Index);
             this.panel1.Controls.Add(this.B_Animations);
             this.panel1.Controls.Add(this.bunifuCustomLabel1);
@@ -59,6 +60,40 @@
             this.panel1.TabIndex = 4;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
+            // bTextures
+            // 
+            this.bTextures.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.bTextures.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.bTextures.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bTextures.BorderRadius = 0;
+            this.bTextures.ButtonText = "  Textures";
+            this.bTextures.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bTextures.DisabledColor = System.Drawing.Color.Gray;
+            this.bTextures.Iconcolor = System.Drawing.Color.Transparent;
+            this.bTextures.Iconimage = ((System.Drawing.Image)(resources.GetObject("bTextures.Iconimage")));
+            this.bTextures.Iconimage_right = null;
+            this.bTextures.Iconimage_right_Selected = null;
+            this.bTextures.Iconimage_Selected = null;
+            this.bTextures.IconMarginLeft = 0;
+            this.bTextures.IconMarginRight = 0;
+            this.bTextures.IconRightVisible = true;
+            this.bTextures.IconRightZoom = 0D;
+            this.bTextures.IconVisible = true;
+            this.bTextures.IconZoom = 75D;
+            this.bTextures.IsTab = false;
+            this.bTextures.Location = new System.Drawing.Point(1, 150);
+            this.bTextures.Name = "bTextures";
+            this.bTextures.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.bTextures.OnHovercolor = System.Drawing.Color.SlateGray;
+            this.bTextures.OnHoverTextColor = System.Drawing.Color.White;
+            this.bTextures.selected = false;
+            this.bTextures.Size = new System.Drawing.Size(153, 45);
+            this.bTextures.TabIndex = 9;
+            this.bTextures.Text = "  Textures";
+            this.bTextures.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bTextures.Textcolor = System.Drawing.Color.White;
+            this.bTextures.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
             // B_Index
             // 
             this.B_Index.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
@@ -67,7 +102,7 @@
             this.B_Index.BorderRadius = 0;
             this.B_Index.ButtonText = "  Home";
             this.B_Index.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.B_Index.DisabledColor = System.Drawing.Color.Gray;
+            this.B_Index.DisabledColor = System.Drawing.Color.SlateGray;
             this.B_Index.Iconcolor = System.Drawing.Color.Transparent;
             this.B_Index.Iconimage = ((System.Drawing.Image)(resources.GetObject("B_Index.Iconimage")));
             this.B_Index.Iconimage_right = null;
@@ -102,7 +137,7 @@
             this.B_Animations.BorderRadius = 0;
             this.B_Animations.ButtonText = "  Animations";
             this.B_Animations.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.B_Animations.DisabledColor = System.Drawing.Color.Gray;
+            this.B_Animations.DisabledColor = System.Drawing.Color.SlateGray;
             this.B_Animations.Iconcolor = System.Drawing.Color.Transparent;
             this.B_Animations.Iconimage = ((System.Drawing.Image)(resources.GetObject("B_Animations.Iconimage")));
             this.B_Animations.Iconimage_right = null;
@@ -127,15 +162,14 @@
             this.B_Animations.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.B_Animations.Textcolor = System.Drawing.Color.White;
             this.B_Animations.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B_Animations.Click += new System.EventHandler(this.B_Animations_Click);
             // 
             // bunifuCustomLabel1
             // 
-            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Comic Sans MS", 11F);
             this.bunifuCustomLabel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(11, 4);
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(6, 4);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(136, 24);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(144, 24);
             this.bunifuCustomLabel1.TabIndex = 5;
             this.bunifuCustomLabel1.Text = "Visual Textures V2";
             // 
@@ -182,14 +216,22 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.pvAnims);
             this.panel2.Controls.Add(this.richTextBox1);
-            this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.listBox1);
             this.panel2.Location = new System.Drawing.Point(154, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(808, 523);
             this.panel2.TabIndex = 9;
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Animations_MouseDown);
+            // 
+            // pvAnims
+            // 
+            this.pvAnims.Location = new System.Drawing.Point(255, 23);
+            this.pvAnims.MinimumSize = new System.Drawing.Size(20, 20);
+            this.pvAnims.Name = "pvAnims";
+            this.pvAnims.Size = new System.Drawing.Size(517, 419);
+            this.pvAnims.TabIndex = 3;
             // 
             // richTextBox1
             // 
@@ -199,15 +241,6 @@
             this.richTextBox1.Size = new System.Drawing.Size(517, 47);
             this.richTextBox1.TabIndex = 2;
             this.richTextBox1.Text = "";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(255, 23);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(517, 419);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // listBox1
             // 
@@ -232,10 +265,10 @@
             this.Name = "Animations";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Visual Textures v2";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Animations_FormClosing);
             this.Load += new System.EventHandler(this.Animations_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -248,9 +281,10 @@
         private Bunifu.Framework.UI.BunifuFlatButton B_Animations;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private Bunifu.Framework.UI.BunifuFlatButton B_Index;
+        private Bunifu.Framework.UI.BunifuFlatButton bTextures;
+        private System.Windows.Forms.WebBrowser pvAnims;
     }
 }
 

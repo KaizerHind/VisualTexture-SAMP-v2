@@ -45,6 +45,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.bTextures = new Bunifu.Framework.UI.BunifuFlatButton();
             this.B_Index = new Bunifu.Framework.UI.BunifuFlatButton();
             this.LOGO = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
@@ -89,7 +90,7 @@
             this.VAnimations.Location = new System.Drawing.Point(1, 101);
             this.VAnimations.Name = "VAnimations";
             this.VAnimations.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.VAnimations.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
+            this.VAnimations.OnHovercolor = System.Drawing.Color.SlateGray;
             this.VAnimations.OnHoverTextColor = System.Drawing.Color.White;
             this.VAnimations.selected = false;
             this.VAnimations.Size = new System.Drawing.Size(153, 45);
@@ -102,11 +103,11 @@
             // 
             // bunifuCustomLabel1
             // 
-            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(11, 4);
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(6, 4);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(136, 24);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(144, 24);
             this.bunifuCustomLabel1.TabIndex = 5;
             this.bunifuCustomLabel1.Text = "Visual Textures V2";
             // 
@@ -255,6 +256,40 @@
             this.panel2.TabIndex = 9;
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Index_MouseDown);
             // 
+            // bTextures
+            // 
+            this.bTextures.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.bTextures.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.bTextures.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bTextures.BorderRadius = 0;
+            this.bTextures.ButtonText = "  Textures";
+            this.bTextures.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bTextures.DisabledColor = System.Drawing.Color.Gray;
+            this.bTextures.Iconcolor = System.Drawing.Color.Transparent;
+            this.bTextures.Iconimage = ((System.Drawing.Image)(resources.GetObject("bTextures.Iconimage")));
+            this.bTextures.Iconimage_right = null;
+            this.bTextures.Iconimage_right_Selected = null;
+            this.bTextures.Iconimage_Selected = null;
+            this.bTextures.IconMarginLeft = 0;
+            this.bTextures.IconMarginRight = 0;
+            this.bTextures.IconRightVisible = true;
+            this.bTextures.IconRightZoom = 0D;
+            this.bTextures.IconVisible = true;
+            this.bTextures.IconZoom = 75D;
+            this.bTextures.IsTab = false;
+            this.bTextures.Location = new System.Drawing.Point(1, 150);
+            this.bTextures.Name = "bTextures";
+            this.bTextures.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.bTextures.OnHovercolor = System.Drawing.Color.SlateGray;
+            this.bTextures.OnHoverTextColor = System.Drawing.Color.White;
+            this.bTextures.selected = false;
+            this.bTextures.Size = new System.Drawing.Size(153, 45);
+            this.bTextures.TabIndex = 10;
+            this.bTextures.Text = "  Textures";
+            this.bTextures.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bTextures.Textcolor = System.Drawing.Color.White;
+            this.bTextures.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
             // B_Index
             // 
             this.B_Index.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
@@ -279,7 +314,7 @@
             this.B_Index.Location = new System.Drawing.Point(3, 52);
             this.B_Index.Name = "B_Index";
             this.B_Index.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.B_Index.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
+            this.B_Index.OnHovercolor = System.Drawing.Color.SlateGray;
             this.B_Index.OnHoverTextColor = System.Drawing.Color.White;
             this.B_Index.selected = false;
             this.B_Index.Size = new System.Drawing.Size(153, 45);
@@ -288,7 +323,6 @@
             this.B_Index.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.B_Index.Textcolor = System.Drawing.Color.White;
             this.B_Index.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B_Index.Click += new System.EventHandler(this.B_Index_Click);
             // 
             // LOGO
             // 
@@ -307,6 +341,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
             this.ClientSize = new System.Drawing.Size(708, 429);
+            this.Controls.Add(this.bTextures);
             this.Controls.Add(this.gb_text);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.B_Index);
@@ -345,6 +380,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private Bunifu.Framework.UI.BunifuFlatButton VAnimations;
+        private Bunifu.Framework.UI.BunifuFlatButton bTextures;
     }
 }
 

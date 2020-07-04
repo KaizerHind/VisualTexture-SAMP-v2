@@ -45,6 +45,7 @@ namespace VisualTexture_v2
         {
             Application.Exit();
         }
+        /* #################################### Sections Control ########################################## */
 
         private void VAnimations_Click(object sender, EventArgs e)
         {
@@ -55,14 +56,13 @@ namespace VisualTexture_v2
             gb_text.Visible = false;
         }
 
-        private void B_Index_Click(object sender, EventArgs e)
+        private void bTextures_Click(object sender, EventArgs e)
         {
-            LOGO.Visible = true;
-            gb_text.Visible = true;
-            /*btnClose.Location = new Point(699, 0);
-            panel2.Width = 593;
-            this.Size = new Size(748, 429);*/
+            this.Hide();
+            Textures Component1 = new Textures();
+            Component1.Show();
         }
+
         /* #################################### Mouse Settings ########################################## */
         private void Index_MouseDown(object sender, System.Windows.Forms.MouseEventArgs e)
         {
