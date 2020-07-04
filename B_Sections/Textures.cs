@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 
 namespace VisualTexture_v2
 {
-    public partial class vTextures : Form
+    public partial class Textures : Form
     {
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
@@ -22,7 +22,7 @@ namespace VisualTexture_v2
         public static extern bool ReleaseCapture();
 
 
-        public vTextures()
+        public Textures()
         {
             InitializeComponent();
         }
@@ -33,6 +33,7 @@ namespace VisualTexture_v2
                 "1.- Doors", "2.- Walls", "3.- Windows", "4.- Floors", "5.-Metals", "6- Colors", "7.- Furnitures", "8.- Accesories", "9.- Random"
             });
         }
+        /* #################################### Sections Control ########################################## */
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -699,6 +700,20 @@ namespace VisualTexture_v2
         private void btnClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void VAnimations_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Animations Component1 = new Animations();
+            Component1.Show();
+        }
+
+        private void B_Index_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Index Component1 = new Index();
+            Component1.Show();
         }
 
         /* #################################### Mouse Settings ########################################## */
