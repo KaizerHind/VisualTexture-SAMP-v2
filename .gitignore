@@ -2,3 +2,5 @@
 packages/cef.redist.x86.83.4.2/CEF/libcef.rar
 packages/cef.redist.x64.83.4.2/CEF/libcef.dll
 packages/cef.redist.x86.83.4.2/CEF/libcef.dll
+packages/cef.redist.x86.83.4.2/CEF/README.txt
+packages/cef.redist.x86.83.4.2/CEF/swiftshader/libGLESv2.dll
