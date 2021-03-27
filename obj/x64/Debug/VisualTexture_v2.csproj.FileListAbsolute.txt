@@ -94,3 +94,12 @@ C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\x64\Debug\Vi
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\x64\Debug\VisualTexture_v2.exe
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\x64\Debug\VisualTexture_v2.pdb
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\x64\Debug\VisualTexture_v2.Textures.resources
+C:\Users\Sebastian\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\x64\Debug\VisualTexture_v2.csprojAssemblyReference.cache
+C:\Users\Sebastian\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\x64\Debug\VisualTexture_v2.Index.resources
+C:\Users\Sebastian\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\x64\Debug\VisualTexture_v2.Animations.resources
+C:\Users\Sebastian\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\x64\Debug\VisualTexture_v2.Textures.resources
+C:\Users\Sebastian\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\x64\Debug\VisualTexture_v2.Properties.Resources.resources
+C:\Users\Sebastian\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\x64\Debug\VisualTexture_v2.csproj.GenerateResource.cache
+C:\Users\Sebastian\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\x64\Debug\VisualTexture_v2.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\x64\Debug\VisualTexture_v2.exe
+C:\Users\Sebastian\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\obj\x64\Debug\VisualTexture_v2.pdb
