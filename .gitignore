@@ -12,3 +12,4 @@ bin/x64/Debug/
 *.dll
 *.dll
 *.dll
+*.pak
