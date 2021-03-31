@@ -89,6 +89,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sections\Animations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sections\Animations.Designer.cs">
+      <DependentUpon>Animations.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Index\Index.resx">
       <DependentUpon>Index.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +108,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Sections\Animations.resx">
+      <DependentUpon>Animations.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -118,7 +127,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Class\" />
-    <Folder Include="Sections\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\art50px.png" />
@@ -131,6 +139,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\IMG\VisualTexture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pict50px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
