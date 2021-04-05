@@ -230,6 +230,7 @@ namespace VisualTexture_v2.Sections
                     richTextBox1.ReadOnly = true;
                     richTextBox1.Enabled = true;
 
+                    wb_url.Navigate("https://clara.io/embed/dac9b8ab-914f-46c3-8f4e-8ae1ba57587d?renderer=webgl");
                     richTextBox1.Text = "new Variable" +
                     "Variable = CreateActor(ID, X, Y, Z, RZ);" +
                     "ApplyActorAnimation(Variable, PED, abseil, 4.0, 1, 1, 1, 0, 0)";

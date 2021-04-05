@@ -36,9 +36,10 @@
             this.btnAnimations = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnHome = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnClose = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.btnClose = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.wb_url = new System.Windows.Forms.WebBrowser();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -187,6 +188,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.wb_url);
             this.panel2.Controls.Add(this.richTextBox1);
             this.panel2.Controls.Add(this.listBox1);
             this.panel2.Controls.Add(this.btnClose);
@@ -195,6 +197,23 @@
             this.panel2.Size = new System.Drawing.Size(630, 449);
             this.panel2.TabIndex = 3;
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(189, 389);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(407, 42);
+            this.richTextBox1.TabIndex = 3;
+            this.richTextBox1.Text = "";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(7, 11);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(176, 420);
+            this.listBox1.TabIndex = 2;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged_1);
             // 
             // btnClose
             // 
@@ -232,22 +251,14 @@
             this.btnClose.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // listBox1
+            // wb_url
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(7, 11);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(176, 420);
-            this.listBox1.TabIndex = 2;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged_1);
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(189, 389);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(407, 42);
-            this.richTextBox1.TabIndex = 3;
-            this.richTextBox1.Text = "";
+            this.wb_url.Location = new System.Drawing.Point(190, 11);
+            this.wb_url.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wb_url.Name = "wb_url";
+            this.wb_url.ScrollBarsEnabled = false;
+            this.wb_url.Size = new System.Drawing.Size(406, 372);
+            this.wb_url.TabIndex = 4;
             // 
             // Animations
             // 
@@ -279,5 +290,6 @@
         private Bunifu.Framework.UI.BunifuFlatButton btnClose;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.WebBrowser wb_url;
     }
 }
