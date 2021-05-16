@@ -1,9 +1,18 @@
 ![enter image description here](https://media.discordapp.net/attachments/522658194602852352/711783281611505684/unknown.png)
 
 # VisualTexture_Pawn_SA-MP_v2
-Multi-tool San Andreas MultiPlayer l Pre-relaunch and better update of the v1 tool: 
+Multi-tool San Andreas MultiPlayer l Pre-relaunch and better update of the v1 tool:
 https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP
 #
+**Is important download in your NuGet Packages inside of VisualStudio the following elements ['cef.redist.x64, cef.redist.x86, CefSharp.Common y CefSharp.CWinForms'](https://youtu.be/fOzBVy-sDbM)**
+
+
+#
+
+# `version 1.2.0` l # Changes released: 05 - April - 2021
+
+ - *The code and the software interface were rebuilt.*
+ - *Some unnecessary parts of the code have been removed.*
 
 # `version 1.2` l # Changes released: 04 - July - 2020
 
