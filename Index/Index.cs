@@ -76,9 +76,21 @@ namespace VisualTexture_v2
             Component1.Show();
         }
 
+        private void btnCPicker_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Sections.Pawncp Component1 = new Sections.Pawncp();
+            Component1.Show();
+        }
+
         private void btnClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void LOGO_Click(object sender, EventArgs e)
+        {
+            
         }
         /* ############################################################################################## */
     }

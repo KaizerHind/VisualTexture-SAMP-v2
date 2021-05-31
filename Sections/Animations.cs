@@ -243,16 +243,18 @@ namespace VisualTexture_v2.Sections
             Index Component1 = new Index();
             Component1.Show();
         }
-        private void btnAnimations_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Sections.Animations Component1 = new Sections.Animations();
-            Component1.Show();
-        }
+
         private void btnTextures_Click(object sender, EventArgs e)
         {
             this.Hide();
             Sections.Textures Component1 = new Sections.Textures();
+            Component1.Show();
+        }
+
+        private void btnCPicker_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Sections.Pawncp Component1 = new Sections.Pawncp();
             Component1.Show();
         }
 

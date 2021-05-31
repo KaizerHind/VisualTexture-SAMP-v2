@@ -32,6 +32,7 @@
             this.bnfElipse = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.lbl_Title = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnCPicker = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnTextures = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnAnimations = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnHome = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -66,15 +67,53 @@
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.btnCPicker);
             this.panel1.Controls.Add(this.btnTextures);
             this.panel1.Controls.Add(this.btnAnimations);
             this.panel1.Controls.Add(this.btnHome);
             this.panel1.Controls.Add(this.lbl_Title);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(171, 449);
+            this.panel1.Size = new System.Drawing.Size(189, 449);
             this.panel1.TabIndex = 2;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            // 
+            // btnCPicker
+            // 
+            this.btnCPicker.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.btnCPicker.BackColor = System.Drawing.Color.Transparent;
+            this.btnCPicker.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCPicker.BorderRadius = 0;
+            this.btnCPicker.ButtonText = "    Color Picker";
+            this.btnCPicker.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCPicker.DisabledColor = System.Drawing.Color.Gray;
+            this.btnCPicker.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.btnCPicker.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnCPicker.Iconimage = global::VisualTexture_v2.Properties.Resources.colorpic50px;
+            this.btnCPicker.Iconimage_right = null;
+            this.btnCPicker.Iconimage_right_Selected = null;
+            this.btnCPicker.Iconimage_Selected = null;
+            this.btnCPicker.IconMarginLeft = 12;
+            this.btnCPicker.IconMarginRight = 0;
+            this.btnCPicker.IconRightVisible = true;
+            this.btnCPicker.IconRightZoom = 0D;
+            this.btnCPicker.IconVisible = true;
+            this.btnCPicker.IconZoom = 60D;
+            this.btnCPicker.IsTab = false;
+            this.btnCPicker.Location = new System.Drawing.Point(8, 274);
+            this.btnCPicker.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCPicker.Name = "btnCPicker";
+            this.btnCPicker.Normalcolor = System.Drawing.Color.Transparent;
+            this.btnCPicker.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.btnCPicker.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnCPicker.selected = false;
+            this.btnCPicker.Size = new System.Drawing.Size(170, 57);
+            this.btnCPicker.TabIndex = 6;
+            this.btnCPicker.Text = "    Color Picker";
+            this.btnCPicker.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCPicker.Textcolor = System.Drawing.Color.White;
+            this.btnCPicker.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCPicker.Click += new System.EventHandler(this.btnCPicker_Click);
             // 
             // btnTextures
             // 
@@ -98,7 +137,7 @@
             this.btnTextures.IconVisible = true;
             this.btnTextures.IconZoom = 60D;
             this.btnTextures.IsTab = false;
-            this.btnTextures.Location = new System.Drawing.Point(-1, 215);
+            this.btnTextures.Location = new System.Drawing.Point(8, 215);
             this.btnTextures.Margin = new System.Windows.Forms.Padding(4);
             this.btnTextures.Name = "btnTextures";
             this.btnTextures.Normalcolor = System.Drawing.Color.Transparent;
@@ -135,7 +174,7 @@
             this.btnAnimations.IconVisible = true;
             this.btnAnimations.IconZoom = 60D;
             this.btnAnimations.IsTab = false;
-            this.btnAnimations.Location = new System.Drawing.Point(-1, 154);
+            this.btnAnimations.Location = new System.Drawing.Point(8, 154);
             this.btnAnimations.Margin = new System.Windows.Forms.Padding(4);
             this.btnAnimations.Name = "btnAnimations";
             this.btnAnimations.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
@@ -171,7 +210,7 @@
             this.btnHome.IconVisible = true;
             this.btnHome.IconZoom = 60D;
             this.btnHome.IsTab = false;
-            this.btnHome.Location = new System.Drawing.Point(-1, 95);
+            this.btnHome.Location = new System.Drawing.Point(8, 95);
             this.btnHome.Margin = new System.Windows.Forms.Padding(4);
             this.btnHome.Name = "btnHome";
             this.btnHome.Normalcolor = System.Drawing.Color.Transparent;
@@ -196,13 +235,13 @@
             this.panel2.Controls.Add(this.btnClose);
             this.panel2.Location = new System.Drawing.Point(169, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(630, 449);
+            this.panel2.Size = new System.Drawing.Size(680, 449);
             this.panel2.TabIndex = 3;
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
             // 
             // wb_url
             // 
-            this.wb_url.Location = new System.Drawing.Point(190, 11);
+            this.wb_url.Location = new System.Drawing.Point(207, 11);
             this.wb_url.MinimumSize = new System.Drawing.Size(20, 20);
             this.wb_url.Name = "wb_url";
             this.wb_url.ScrollBarsEnabled = false;
@@ -211,7 +250,7 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(189, 389);
+            this.richTextBox1.Location = new System.Drawing.Point(206, 389);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(407, 42);
             this.richTextBox1.TabIndex = 3;
@@ -220,7 +259,7 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(7, 11);
+            this.listBox1.Location = new System.Drawing.Point(24, 11);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(176, 420);
             this.listBox1.TabIndex = 2;
@@ -248,7 +287,7 @@
             this.btnClose.IconVisible = true;
             this.btnClose.IconZoom = 90D;
             this.btnClose.IsTab = false;
-            this.btnClose.Location = new System.Drawing.Point(602, -2);
+            this.btnClose.Location = new System.Drawing.Point(651, -5);
             this.btnClose.Name = "btnClose";
             this.btnClose.Normalcolor = System.Drawing.Color.DarkRed;
             this.btnClose.OnHovercolor = System.Drawing.Color.Maroon;
@@ -267,9 +306,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panel2);
+            this.ClientSize = new System.Drawing.Size(850, 450);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Animations";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -293,5 +332,6 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.WebBrowser wb_url;
+        private Bunifu.Framework.UI.BunifuFlatButton btnCPicker;
     }
 }
