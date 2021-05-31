@@ -1,7 +1,7 @@
 # VisualTexture_Pawn_SA-MP_v2
 Multi-tool San Andreas MultiPlayer l Pre-relaunch and better update of the v1 tool:
 https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP
-#
+
 ![enter image description here](https://media.discordapp.net/attachments/522658194602852352/711783281611505684/unknown.png)
 #
 **Is important download in your NuGet Packages inside of VisualStudio the following elements ['cef.redist.x64, cef.redist.x86, CefSharp.Common y CefSharp.CWinForms'](https://youtu.be/fOzBVy-sDbM)**
