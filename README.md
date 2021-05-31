@@ -9,6 +9,12 @@ https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP
 
 #
 
+# `version 1.2.1` l # Changes released: 30 - May - 2021
+
+ - *The way to choose and view the information of the textures was modified.*
+ - *A couple of corrections were made and it is planned to change the way to view the animations. (The method used will be the same as that used in Version 1).*
+ - *Resource content was added. (1,5%)*
+
 # `version 1.2.0` l # Changes released: 05 - April - 2021
 
  - *The code and the software interface were rebuilt.*
