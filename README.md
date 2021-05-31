@@ -7,26 +7,26 @@
 
 # `version 1.2.1` l # Changes released: 30 - May - 2021
 
- - *The way to choose and view the information of the textures was modified.*
- - *A couple of corrections were made and it is planned to change the way to view the animations. (The method used will be the same as that used in Version 1).*
- - *Resource content was added. (1,5%)*
- - The ColorPicker tool created by Zume was added.
- - Made UI fixes related to the up and down tool.
+- [x]  *The way to choose and view the information of the textures was modified.*
+- [x]  *A couple of corrections were made and it is planned to change the way to view the animations. (The method used will be the same as that used in Version 1).*
+- [x]  *Resource content was added. (1,5%)*
+- [x]  The ColorPicker tool created by Zume was added.
+- [x]  Made UI fixes related to the up and down tool.
 
-# `version 1.2.0` l # Changes released: 05 - April - 2021
+# `version 1.2.0` l # Changes released: 05 - April - 2021 
 
- - *The code and the software interface were rebuilt.*
- - *Some unnecessary parts of the code have been removed.*
+- [x]  *The code and the software interface were rebuilt.*
+- [x] *Some unnecessary parts of the code have been removed.*
 
 # `version 1.2` l # Changes released: 04 - July - 2020
 
- - *Animations and textures section were added. (They arent fully ready yet)*
- - *Added a custom way to view animations using [Clara.io](http://clara.io/).*
- - *Currently only the ped.ifp library was added in Animations.*
- - *Adjustments were made in the [Bunifu](https://bunifuframework.com/) interface.*
+- [x]  *Animations and textures section were added. (They arent fully ready yet)*
+- [x]  *Added a custom way to view animations using [Clara.io](http://clara.io/).*
+- [x]  *Currently only the ped.ifp library was added in Animations.*
+- [x]  *Adjustments were made in the [Bunifu](https://bunifuframework.com/) interface.*
 
 # `version 1.0` l # Changes released: 17 - May - 2020
 
- - *Now you can move the panel by selecting any region of the form.*
- - *The way to access the forms(tools) has been optimized, now you have the option to enter the VisualTexture sections more easily.*
- - *The code has been optimized a little more.*
+- [x]  *Now you can move the panel by selecting any region of the form.*
+- [x]  *The way to access the forms(tools) has been optimized, now you have the option to enter the VisualTexture sections more easily.*
+- [x]  *The code has been optimized a little more.*
