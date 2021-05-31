@@ -3,17 +3,15 @@ Multi-tool San Andreas MultiPlayer l Pre-relaunch and better update of the v1 to
 (https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP)
 
 ![enter image description here](https://media.discordapp.net/attachments/522658194602852352/711783281611505684/unknown.png)
-#
 **Is important download in your NuGet Packages inside of VisualStudio the following elements ['cef.redist.x64, cef.redist.x86, CefSharp.Common y CefSharp.CWinForms'](https://youtu.be/fOzBVy-sDbM)**
-
-
-#
 
 # `version 1.2.1` l # Changes released: 30 - May - 2021
 
  - *The way to choose and view the information of the textures was modified.*
  - *A couple of corrections were made and it is planned to change the way to view the animations. (The method used will be the same as that used in Version 1).*
  - *Resource content was added. (1,5%)*
+ - The ColorPicker tool created by [Zume](https://github.com/Zume-Zero) was added.
+ - Made UI fixes related to the up and down tool.
 
 # `version 1.2.0` l # Changes released: 05 - April - 2021
 
