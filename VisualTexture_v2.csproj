@@ -55,7 +55,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.5.3">
-      <HintPath>..\Bunifu_UI_v1.5.3.dll</HintPath>
+      <HintPath>..\..\..\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
     <Reference Include="CefSharp, Version=88.2.90.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=MSIL">
       <HintPath>packages\CefSharp.Common.88.2.90\lib\net452\CefSharp.dll</HintPath>
@@ -95,6 +95,12 @@
     <Compile Include="Sections\Animations.Designer.cs">
       <DependentUpon>Animations.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sections\Textures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sections\Textures.Designer.cs">
+      <DependentUpon>Textures.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Index\Index.resx">
       <DependentUpon>Index.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,6 +116,9 @@
     </Compile>
     <EmbeddedResource Include="Sections\Animations.resx">
       <DependentUpon>Animations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sections\Textures.resx">
+      <DependentUpon>Textures.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -142,6 +151,606 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pict50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\a51_floorpanel1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\a51_panel2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\a51_panels1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\a51_strips1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\a51_vent1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\a51_wall1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\brick.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\carparkwall12_256.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\concretegroundl1_256.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\concretewall22_256.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\concreteyellow256_copy.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\des_factower.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\ferry_build14.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\Metalox64.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\pcut_bot_law.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\rebrckwall_128.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\redmetal.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\shingles2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\sl_vicbrikwall01.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\sl_vicwall01.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\sl_vicwall02.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\sw_olddrum1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Paredes\wallgreyred128.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\711doors1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\a51_blastdoor.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\a51_intdoor.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\a51_weedoors.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\aarprt6LAS.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ab_ACcarrierDoor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\airportdoor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\alleydoor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\alleydoor2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\alleydoor3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\alleydoor4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\alleydoor6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\alleydoor7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\alleydoor8.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\alleydoor9b.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\alleydoorb256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\alleydoorz256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ballydoor01_128.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\bevdoor01_law.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\bevdoor02_law.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\bevdoor03_law.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\bevdoor04_law.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\bigwhite_4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\bigwhite_5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\Bow_bar_entrance_door.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\Bow_door_graffiti_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\Bow_Load_Door.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\Bow_Loadingbay_Door.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\Bow_LoadingBayDoor.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\cargodoor_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\carparkdoor1_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\casinodoor_frmnt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\cityhalldoor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\CJ_DOOR6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\CJ_PIZZA_DOOR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\CJ_SCOR_DOOR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\CJ_SUB_DOORS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\clubdoor1_256.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\compdoor1_LAe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\compdoor2_LAe.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\compdoor4_LAe.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\compdoor5_LAe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\compdoor6_LAe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\comptdoor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\comptdoor2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\comptdoor3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\comptdoor4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\corporate1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\corporate2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\corporate3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\corporate3green_128.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\crapdoor1_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\des_adobedoor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\des_adobedoor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\des_adobedoor3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\des_backdoor1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\des_door1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\des_door2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\des_greendoor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\des_metaldoor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\des_ntwndoor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\des_ntwndoor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\des_ntwndoor3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\des_ntwnwin6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\des_thfdoor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\des_wigwamdoor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\des_woodshopdoor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\door_pan1_64_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\doornvent256128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\drvin_door1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\drvin_door2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\dt_ind_door.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\dt_scyscrap_door2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\flatdoor01_law.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\garagedoor4_law.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\garagedoor5_law.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\garargeb2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\GB_doorpur01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\GB_truckdepot29.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\gz_sf_door12b.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\gz_vicdoor1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\gz_vicdoor2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\halldoor01_law.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\hosdoor01_law.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\inddoor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\inddoor5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\inddoor7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\inddoordark128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\inddoorway128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\int02_128.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\lasbevcit7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\lasjmdoorgud.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\lasmalhus92.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\liftdoors_kb_256.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\liftdoorsac256.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\LoadingDoorClean.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\Lombard_door1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\metaldoor01_256.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\mp_carter_doorway.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\pawn_door01.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\plainwoodoor2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sf_garagedr1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sf_ship_door.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\shitydoor1_256.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\shopdoor01_law.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\shopdoor02_law.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\shopdoor3_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\shopgrating128H.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sjmhoodalldr.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sjmhoodoor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sl_grngarage1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sl_presdoor01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sl_presdoor02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sl_prisongate1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sl_shopshttr1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\slidingdoor01_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\staddoors1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_backdoor02.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_door03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_door04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_door05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_door07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_door08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_door09.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_door10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_door11.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_door12.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_door13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_door14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_door15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_door16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_door17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_door18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_door19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_sheddoor2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\sw_shutters1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\trail_door.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\vengardoor01_SFW.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\vgncorpdoor1_512.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\vgsclubdoor02_128.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\Was_scrpyd_door_dbl_grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\Was_scrpyd_door_in_hngr.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\Was_scrpyd_trailer_door.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\wilsdoor_01_la.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_airportdoors1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_airportwin2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_altz_wall5_door.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_basheddoor1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_bigblackdoor.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_dampdoubledoor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_doorframe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_doorfront.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_doubledoor1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_doubledoor3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_doubledoor4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_garagedoor2_blue.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_garagedoor2_green.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_garagedoor2_white.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_garagedoor2_yello.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_garagedoor3_green.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_garagedoor3_pink.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_garagedoor3_white.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_garagedoor4_peach.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_glassnbrassdoor.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_guardhousedoor.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_hangardoor.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_painted_doors1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_painted_doors2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_painted_doors3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_reinforcedbutwonky.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_rollerdoor_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_rollerdoor_fire.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_rollerdoor_silver.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_rollerdoor_silver2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_security_door.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_wood_doors1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textures\Puertas\ws_wood_doors2.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

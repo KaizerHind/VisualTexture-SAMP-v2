@@ -69,6 +69,13 @@ namespace VisualTexture_v2
             Component1.Show();
         }
 
+        private void btnTextures_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Sections.Textures Component1 = new Sections.Textures();
+            Component1.Show();
+        }
+
         private void btnClose_Click(object sender, EventArgs e)
         {
             Application.Exit();

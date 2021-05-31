@@ -1,14 +1,10 @@
 ﻿using System;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;
-using CefSharp;
-using CefSharp.WinForms;
 
 namespace VisualTexture_v2.Sections
 {
     public partial class Animations : Form
     {
-        public ChromiumWebBrowser chromeBrowser;
 
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
@@ -20,8 +16,6 @@ namespace VisualTexture_v2.Sections
         public Animations()
         {
             InitializeComponent();
-            // Start the browser after initialize global component
-            InitializeChromium();
 
             listBox1.Items.AddRange(new object[] {
             "[PED]",
@@ -199,18 +193,6 @@ namespace VisualTexture_v2.Sections
             //pvAnims.Visible = false;
         }
 
-        public void InitializeChromium()
-        {
-            CefSettings settings = new CefSettings();
-            // Initialize cef with the provided settings
-            Cef.Initialize(settings);
-            // Create a browser component
-            chromeBrowser = new ChromiumWebBrowser("http://ourcodeworld.com");
-            // Add it to the form and fill it to the form window.
-            this.Controls.Add(chromeBrowser);
-            chromeBrowser.Dock = DockStyle.Fill;
-        }
-
         private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             switch (listBox1.FindString(listBox1.SelectedItem.ToString()))
@@ -230,7 +212,7 @@ namespace VisualTexture_v2.Sections
                     richTextBox1.ReadOnly = true;
                     richTextBox1.Enabled = true;
 
-                    wb_url.Navigate("https://clara.io/embed/dac9b8ab-914f-46c3-8f4e-8ae1ba57587d?renderer=webgl");
+                    //wb_url.Navigate("https://clara.io/embed/dac9b8ab-914f-46c3-8f4e-8ae1ba57587d?renderer=webgl");
                     richTextBox1.Text = "new Variable" +
                     "Variable = CreateActor(ID, X, Y, Z, RZ);" +
                     "ApplyActorAnimation(Variable, PED, abseil, 4.0, 1, 1, 1, 0, 0)";
@@ -261,12 +243,23 @@ namespace VisualTexture_v2.Sections
             Index Component1 = new Index();
             Component1.Show();
         }
+        private void btnAnimations_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Sections.Animations Component1 = new Sections.Animations();
+            Component1.Show();
+        }
+        private void btnTextures_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Sections.Textures Component1 = new Sections.Textures();
+            Component1.Show();
+        }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
 
     }
 }

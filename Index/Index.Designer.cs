@@ -55,6 +55,7 @@
             // 
             // panel1
             // 
+            this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.btnTextures);
@@ -63,7 +64,7 @@
             this.panel1.Controls.Add(this.lbl_Title);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(170, 449);
+            this.panel1.Size = new System.Drawing.Size(171, 449);
             this.panel1.TabIndex = 0;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
@@ -73,7 +74,7 @@
             this.btnTextures.BackColor = System.Drawing.Color.Transparent;
             this.btnTextures.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTextures.BorderRadius = 0;
-            this.btnTextures.ButtonText = "    Animations";
+            this.btnTextures.ButtonText = "    Textures";
             this.btnTextures.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTextures.DisabledColor = System.Drawing.Color.Gray;
             this.btnTextures.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
@@ -98,10 +99,11 @@
             this.btnTextures.selected = false;
             this.btnTextures.Size = new System.Drawing.Size(170, 57);
             this.btnTextures.TabIndex = 3;
-            this.btnTextures.Text = "    Animations";
+            this.btnTextures.Text = "    Textures";
             this.btnTextures.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTextures.Textcolor = System.Drawing.Color.White;
             this.btnTextures.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTextures.Click += new System.EventHandler(this.btnTextures_Click);
             // 
             // btnAnimations
             // 
