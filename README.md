@@ -1,7 +1,8 @@
 
 # VisualTexture_v2
 - Multi-tool San Andreas MultiPlayer l Pre-relaunch and better update of the v1 tool:
-- https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP)
+- src old: https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP)
+- Complement: https://github.com/KaizerHind/PreviewAnims
 
 ![enter image description here](https://media.discordapp.net/attachments/559900721252925458/848858048557744158/unknown.png)
  #
