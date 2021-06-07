@@ -18,10 +18,6 @@ namespace VisualTexture_v2.Sections
         public Textures()
         {
             InitializeComponent();
-            /*Textures f2 = new Textures();
-            f2.MouseWheel += new MouseEventHandler(panel3_MouseWheel);
-            f2.MouseMove += new MouseEventHandler(panel3_MouseWheel);
-            f2.Show(this);*/
 
             listBox1.Items.AddRange(new object[] {
                 "1.- Walls",
@@ -42,7 +38,7 @@ namespace VisualTexture_v2.Sections
         {
             switch (listBox1.FindString(listBox1.SelectedItem.ToString()))
             {
-                case 0:
+                case 0: //Walls
                     panel3.Show();
 
                     tPic_1.Image = VisualTexture_v2.Properties.Resources.a51_floorpanel1;
@@ -68,12 +64,13 @@ namespace VisualTexture_v2.Sections
 
                     break;
 
-                case 1:
+                case 1: //Doors
                     panel3.Hide();
 
                     break;
             }
         }
+
 
         private void tPic_1_Click(object sender, EventArgs e)
         {
@@ -201,10 +198,6 @@ namespace VisualTexture_v2.Sections
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
         }
-        /*private void panel3_MouseWheel(object sender, MouseEventArgs e)
-        {
-            if (e.Delta != 0) Console.Out.WriteLine(e.Delta);
-        }*/
 
         private void btnHome_Click(object sender, EventArgs e)
         {
@@ -226,12 +219,17 @@ namespace VisualTexture_v2.Sections
             Sections.Pawncp Component1 = new Sections.Pawncp();
             Component1.Show();
         }
+        private void btnSpray_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Sections.VSprites Component1 = new Sections.VSprites();
+            Component1.Show();
+        }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
 
     }
 }

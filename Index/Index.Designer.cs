@@ -48,6 +48,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.LOGO = new System.Windows.Forms.PictureBox();
             this.btnClose = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnSpray = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -59,6 +60,7 @@
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.btnSpray);
             this.panel1.Controls.Add(this.btnCPicker);
             this.panel1.Controls.Add(this.btnTextures);
             this.panel1.Controls.Add(this.btnAnimations);
@@ -351,7 +353,6 @@
             this.LOGO.Size = new System.Drawing.Size(288, 201);
             this.LOGO.TabIndex = 0;
             this.LOGO.TabStop = false;
-            this.LOGO.Click += new System.EventHandler(this.LOGO_Click);
             this.LOGO.MouseDown += new System.Windows.Forms.MouseEventHandler(this.LOGO_MouseDown);
             // 
             // btnClose
@@ -389,6 +390,43 @@
             this.btnClose.Textcolor = System.Drawing.Color.White;
             this.btnClose.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // btnSpray
+            // 
+            this.btnSpray.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.btnSpray.BackColor = System.Drawing.Color.Transparent;
+            this.btnSpray.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSpray.BorderRadius = 0;
+            this.btnSpray.ButtonText = "    SpriteBrowser";
+            this.btnSpray.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSpray.DisabledColor = System.Drawing.Color.Gray;
+            this.btnSpray.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.btnSpray.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnSpray.Iconimage = global::VisualTexture_v2.Properties.Resources.spray50px;
+            this.btnSpray.Iconimage_right = null;
+            this.btnSpray.Iconimage_right_Selected = null;
+            this.btnSpray.Iconimage_Selected = null;
+            this.btnSpray.IconMarginLeft = 12;
+            this.btnSpray.IconMarginRight = 0;
+            this.btnSpray.IconRightVisible = true;
+            this.btnSpray.IconRightZoom = 0D;
+            this.btnSpray.IconVisible = true;
+            this.btnSpray.IconZoom = 60D;
+            this.btnSpray.IsTab = false;
+            this.btnSpray.Location = new System.Drawing.Point(8, 334);
+            this.btnSpray.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSpray.Name = "btnSpray";
+            this.btnSpray.Normalcolor = System.Drawing.Color.Transparent;
+            this.btnSpray.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.btnSpray.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnSpray.selected = false;
+            this.btnSpray.Size = new System.Drawing.Size(170, 57);
+            this.btnSpray.TabIndex = 6;
+            this.btnSpray.Text = "    SpriteBrowser";
+            this.btnSpray.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSpray.Textcolor = System.Drawing.Color.White;
+            this.btnSpray.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpray.Click += new System.EventHandler(this.btnSpray_Click);
             // 
             // Index
             // 
@@ -434,6 +472,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox LOGO;
         private Bunifu.Framework.UI.BunifuFlatButton btnCPicker;
+        private Bunifu.Framework.UI.BunifuFlatButton btnSpray;
     }
 }
 

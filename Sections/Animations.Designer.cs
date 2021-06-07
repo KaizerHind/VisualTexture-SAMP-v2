@@ -32,15 +32,17 @@
             this.bnfElipse = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.lbl_Title = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnSpray = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnCPicker = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnTextures = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnAnimations = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnHome = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.wb_url = new System.Windows.Forms.WebBrowser();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.btnClose = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -67,6 +69,7 @@
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.btnSpray);
             this.panel1.Controls.Add(this.btnCPicker);
             this.panel1.Controls.Add(this.btnTextures);
             this.panel1.Controls.Add(this.btnAnimations);
@@ -77,6 +80,43 @@
             this.panel1.Size = new System.Drawing.Size(189, 449);
             this.panel1.TabIndex = 2;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            // 
+            // btnSpray
+            // 
+            this.btnSpray.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.btnSpray.BackColor = System.Drawing.Color.Transparent;
+            this.btnSpray.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSpray.BorderRadius = 0;
+            this.btnSpray.ButtonText = "    SpriteBrowser";
+            this.btnSpray.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSpray.DisabledColor = System.Drawing.Color.Gray;
+            this.btnSpray.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.btnSpray.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnSpray.Iconimage = global::VisualTexture_v2.Properties.Resources.spray50px;
+            this.btnSpray.Iconimage_right = null;
+            this.btnSpray.Iconimage_right_Selected = null;
+            this.btnSpray.Iconimage_Selected = null;
+            this.btnSpray.IconMarginLeft = 12;
+            this.btnSpray.IconMarginRight = 0;
+            this.btnSpray.IconRightVisible = true;
+            this.btnSpray.IconRightZoom = 0D;
+            this.btnSpray.IconVisible = true;
+            this.btnSpray.IconZoom = 60D;
+            this.btnSpray.IsTab = false;
+            this.btnSpray.Location = new System.Drawing.Point(8, 334);
+            this.btnSpray.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSpray.Name = "btnSpray";
+            this.btnSpray.Normalcolor = System.Drawing.Color.Transparent;
+            this.btnSpray.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.btnSpray.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnSpray.selected = false;
+            this.btnSpray.Size = new System.Drawing.Size(170, 57);
+            this.btnSpray.TabIndex = 7;
+            this.btnSpray.Text = "    SpriteBrowser";
+            this.btnSpray.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSpray.Textcolor = System.Drawing.Color.White;
+            this.btnSpray.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpray.Click += new System.EventHandler(this.btnSpray_Click);
             // 
             // btnCPicker
             // 
@@ -229,7 +269,8 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.wb_url);
+            this.panel2.Controls.Add(this.richTextBox2);
+            this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.richTextBox1);
             this.panel2.Controls.Add(this.listBox1);
             this.panel2.Controls.Add(this.btnClose);
@@ -239,27 +280,18 @@
             this.panel2.TabIndex = 3;
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
             // 
-            // wb_url
-            // 
-            this.wb_url.Location = new System.Drawing.Point(207, 11);
-            this.wb_url.MinimumSize = new System.Drawing.Size(20, 20);
-            this.wb_url.Name = "wb_url";
-            this.wb_url.ScrollBarsEnabled = false;
-            this.wb_url.Size = new System.Drawing.Size(406, 372);
-            this.wb_url.TabIndex = 4;
-            // 
             // richTextBox1
             // 
             this.richTextBox1.Location = new System.Drawing.Point(206, 389);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(407, 42);
+            this.richTextBox1.Size = new System.Drawing.Size(439, 21);
             this.richTextBox1.TabIndex = 3;
             this.richTextBox1.Text = "";
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(24, 11);
+            this.listBox1.Location = new System.Drawing.Point(24, 14);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(176, 420);
             this.listBox1.TabIndex = 2;
@@ -301,6 +333,21 @@
             this.btnClose.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // panel3
+            // 
+            this.panel3.Location = new System.Drawing.Point(207, 12);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(438, 371);
+            this.panel3.TabIndex = 4;
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Location = new System.Drawing.Point(206, 416);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(439, 21);
+            this.richTextBox2.TabIndex = 5;
+            this.richTextBox2.Text = "";
+            // 
             // Animations
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -331,7 +378,9 @@
         private Bunifu.Framework.UI.BunifuFlatButton btnClose;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.WebBrowser wb_url;
         private Bunifu.Framework.UI.BunifuFlatButton btnCPicker;
+        private Bunifu.Framework.UI.BunifuFlatButton btnSpray;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.RichTextBox richTextBox2;
     }
 }

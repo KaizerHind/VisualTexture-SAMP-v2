@@ -56,6 +56,7 @@ namespace VisualTexture_v2.Sections
             this.btnAnimations = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnHome = new Bunifu.Framework.UI.BunifuFlatButton();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.btnSpray = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel2.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -130,10 +131,10 @@ namespace VisualTexture_v2.Sections
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripLabel1});
             this.toolStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow;
-            this.toolStrip1.Location = new System.Drawing.Point(0, 428);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 429);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.toolStrip1.Size = new System.Drawing.Size(678, 19);
+            this.toolStrip1.Size = new System.Drawing.Size(678, 18);
             this.toolStrip1.TabIndex = 38;
             this.toolStrip1.Text = "toolStrip1";
             this.toolStrip1.Click += new System.EventHandler(this.toolStripLabel1_Click);
@@ -306,6 +307,7 @@ namespace VisualTexture_v2.Sections
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.btnSpray);
             this.panel1.Controls.Add(this.btnCPicker);
             this.panel1.Controls.Add(this.btnTextures);
             this.panel1.Controls.Add(this.btnAnimations);
@@ -468,6 +470,43 @@ namespace VisualTexture_v2.Sections
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // btnSpray
+            // 
+            this.btnSpray.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.btnSpray.BackColor = System.Drawing.Color.Transparent;
+            this.btnSpray.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSpray.BorderRadius = 0;
+            this.btnSpray.ButtonText = "    SpriteBrowser";
+            this.btnSpray.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSpray.DisabledColor = System.Drawing.Color.Gray;
+            this.btnSpray.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.btnSpray.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnSpray.Iconimage = global::VisualTexture_v2.Properties.Resources.spray50px;
+            this.btnSpray.Iconimage_right = null;
+            this.btnSpray.Iconimage_right_Selected = null;
+            this.btnSpray.Iconimage_Selected = null;
+            this.btnSpray.IconMarginLeft = 12;
+            this.btnSpray.IconMarginRight = 0;
+            this.btnSpray.IconRightVisible = true;
+            this.btnSpray.IconRightZoom = 0D;
+            this.btnSpray.IconVisible = true;
+            this.btnSpray.IconZoom = 60D;
+            this.btnSpray.IsTab = false;
+            this.btnSpray.Location = new System.Drawing.Point(8, 334);
+            this.btnSpray.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSpray.Name = "btnSpray";
+            this.btnSpray.Normalcolor = System.Drawing.Color.Transparent;
+            this.btnSpray.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.btnSpray.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnSpray.selected = false;
+            this.btnSpray.Size = new System.Drawing.Size(170, 57);
+            this.btnSpray.TabIndex = 8;
+            this.btnSpray.Text = "    SpriteBrowser";
+            this.btnSpray.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSpray.Textcolor = System.Drawing.Color.White;
+            this.btnSpray.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpray.Click += new System.EventHandler(this.btnSpray_Click);
+            // 
             // Pawncp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -521,5 +560,6 @@ namespace VisualTexture_v2.Sections
         private System.Windows.Forms.HScrollBar hScrollBar1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Timer timer1;
+        private Bunifu.Framework.UI.BunifuFlatButton btnSpray;
     }
 }

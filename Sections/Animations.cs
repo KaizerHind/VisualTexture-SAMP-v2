@@ -1,5 +1,9 @@
 ﻿using System;
+using System.IO;
 using System.Windows.Forms;
+using CefSharp;
+using CefSharp.WinForms;
+
 
 namespace VisualTexture_v2.Sections
 {
@@ -13,13 +17,28 @@ namespace VisualTexture_v2.Sections
         public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
         [System.Runtime.InteropServices.DllImport("user32.dll")]
         public static extern bool ReleaseCapture();
+
+        public ChromiumWebBrowser chromeBrowser;
+
+        public void InitializeChromium()
+        {
+            CefSettings settings = new CefSettings();
+            // Initialize cef with the provided settings
+            Cef.Initialize(settings);
+            // Create a browser component
+            chromeBrowser = new ChromiumWebBrowser("http://ourcodeworld.com");
+            // Add it to the form and fill it to the form window.
+            this.Controls.Add(chromeBrowser);
+            chromeBrowser.Dock = DockStyle.Fill;
+        }
+
         public Animations()
         {
             InitializeComponent();
+            InitializeChromium();
 
             listBox1.Items.AddRange(new object[] {
             "[PED]",
-            "-  abseil",
             "-  ARRESTgun",
             "-  ATM",
             "-  bomber",
@@ -193,29 +212,29 @@ namespace VisualTexture_v2.Sections
             //pvAnims.Visible = false;
         }
 
+        public CefSharp.WinForms.ChromiumWebBrowser browser;
+
         private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             switch (listBox1.FindString(listBox1.SelectedItem.ToString()))
             {
                 case 0:
-                    //listBox1.SelectedIndex = 1;
-                    //pvAnims.Visible = false;
-                    richTextBox1.Enabled = false;
                     richTextBox1.Visible = false;
-
-                    richTextBox1.Text = "";
+                    panel3.Visible = false;
                     break;
 
                 case 1:
                     //pvAnims.Visible = true;
                     richTextBox1.Visible = true;
                     richTextBox1.ReadOnly = true;
-                    richTextBox1.Enabled = true;
+                    //richTextBox1.Enabled = true;
+                    panel3.Visible = true;
 
-                    //wb_url.Navigate("https://clara.io/embed/dac9b8ab-914f-46c3-8f4e-8ae1ba57587d?renderer=webgl");
-                    richTextBox1.Text = "new Variable" +
-                    "Variable = CreateActor(ID, X, Y, Z, RZ);" +
-                    "ApplyActorAnimation(Variable, PED, abseil, 4.0, 1, 1, 1, 0, 0)";
+                    browser = new CefSharp.WinForms.ChromiumWebBrowser("https://demo-anims.netlify.app/arrestgun/");
+                    this.panel3.Controls.Add(browser);
+                    //wb_url.Navigate("https://demo-anims.netlify.app/arrestgun/");
+                    richTextBox1.Text = "new Variable Var = CreateActor(ID, X, Y, Z, RZ);";
+                    richTextBox2.Text = "ApplyActorAnimation(Variable, PED, ARRESTgunit, 4.0, 1, 1, 1, 0, 0)";
                     break;
             }
         }
@@ -257,11 +276,17 @@ namespace VisualTexture_v2.Sections
             Sections.Pawncp Component1 = new Sections.Pawncp();
             Component1.Show();
         }
+        private void btnSpray_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Sections.VSprites Component1 = new Sections.VSprites();
+            Component1.Show();
+        }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
+            Cef.Shutdown();
         }
-
     }
 }

@@ -88,9 +88,11 @@ namespace VisualTexture_v2
             Application.Exit();
         }
 
-        private void LOGO_Click(object sender, EventArgs e)
+        private void btnSpray_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
+            Sections.VSprites Component1 = new Sections.VSprites();
+            Component1.Show();
         }
         /* ############################################################################################## */
     }

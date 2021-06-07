@@ -28,13 +28,13 @@ namespace VisualTexture_v2.Sections
 
         private void Pawncp_Load(object sender, EventArgs e)
         {
-            this.Opacity = 0;
+            /*this.Opacity = 0;
             for (double i = 0; i <= 1; i += 0.1)
             {
                 this.Opacity = i;
                 this.Refresh();
                 System.Threading.Thread.Sleep(15);
-            }
+            }*/
         }
 
         // Change pictureBox1
@@ -158,12 +158,16 @@ namespace VisualTexture_v2.Sections
             Sections.Textures Component1 = new Sections.Textures();
             Component1.Show();
         }
+        private void btnSpray_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Sections.VSprites Component1 = new Sections.VSprites();
+            Component1.Show();
+        }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
-
     }
 }
