@@ -3,10 +3,9 @@
 - Multi-tool San Andreas MultiPlayer l Pre-relaunch and better update of the v1 tool:
 - src old: https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP)
 - Complement: https://github.com/KaizerHind/PreviewAnims
-
+- **Is important download in your NuGet Packages inside of VisualStudio the following elements ['cef.redist.x64, cef.redist.x86, CefSharp.Common y CefSharp.CWinForms'](https://youtu.be/fOzBVy-sDbM)**
+#
 ![enter image description here](https://media.discordapp.net/attachments/559900721252925458/848858048557744158/unknown.png)
- #
-**Is important download in your NuGet Packages inside of VisualStudio the following elements ['cef.redist.x64, cef.redist.x86, CefSharp.Common y CefSharp.CWinForms'](https://youtu.be/fOzBVy-sDbM)**
 #
 # `version 1.2.1` l # Changes released: 07 - June - 2021
 - [x]  *The VSprites tool was added. (By Lorenc_)*
