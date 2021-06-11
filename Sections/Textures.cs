@@ -211,6 +211,7 @@ namespace VisualTexture_v2.Sections
             this.Hide();
             Animations Component1 = new Animations();
             Component1.Show();
+            MessageBox.Show("Hello! In case the first animation you select doesn't load correctly, select another one again so that the page reloads. :)");
         }
 
         private void btnCPicker_Click(object sender, EventArgs e)

@@ -67,6 +67,7 @@ namespace VisualTexture_v2
             this.Hide();
             Sections.Animations Component1 = new Sections.Animations();
             Component1.Show();
+            MessageBox.Show("Hello! In case the first animation you select doesn't load correctly, select another one again so that the page reloads. :)");
         }
 
         private void btnTextures_Click(object sender, EventArgs e)
@@ -83,17 +84,17 @@ namespace VisualTexture_v2
             Component1.Show();
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
         private void btnSpray_Click(object sender, EventArgs e)
         {
             this.Hide();
             Sections.VSprites Component1 = new Sections.VSprites();
             Component1.Show();
         }
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
         /* ############################################################################################## */
     }
 

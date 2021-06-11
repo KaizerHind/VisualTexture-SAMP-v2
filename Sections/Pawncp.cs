@@ -62,7 +62,6 @@ namespace VisualTexture_v2.Sections
 
             textBox1.Text = RGBToPAWNConverter(pictureBox1.BackColor);
             textBox2.Text = HexConverter(pictureBox1.BackColor);
-
         }
 
         private void hScrollBar2_Scroll(object sender, ScrollEventArgs e)
@@ -150,6 +149,7 @@ namespace VisualTexture_v2.Sections
             this.Hide();
             Animations Component1 = new Animations();
             Component1.Show();
+            MessageBox.Show("Hello! In case the first animation you select doesn't load correctly, select another one again so that the page reloads. :)");
         }
 
         private void btnTextures_Click(object sender, EventArgs e)
