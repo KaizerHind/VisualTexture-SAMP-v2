@@ -38,11 +38,12 @@
             this.btnAnimations = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnHome = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.btnClose = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel3 = new System.Windows.Forms.Panel();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.btnClose = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.wbrowser = new CefSharp.WinForms.ChromiumWebBrowser();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -269,10 +270,11 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.richTextBox2);
-            this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.richTextBox1);
+            this.panel2.Controls.Add(this.wbrowser);
             this.panel2.Controls.Add(this.listBox1);
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Controls.Add(this.richTextBox2);
+            this.panel2.Controls.Add(this.richTextBox1);
             this.panel2.Controls.Add(this.btnClose);
             this.panel2.Location = new System.Drawing.Point(169, 0);
             this.panel2.Name = "panel2";
@@ -280,22 +282,42 @@
             this.panel2.TabIndex = 3;
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
             // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(206, 389);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(439, 21);
-            this.richTextBox1.TabIndex = 3;
-            this.richTextBox1.Text = "";
-            // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(24, 14);
+            this.listBox1.Location = new System.Drawing.Point(26, 13);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(176, 420);
-            this.listBox1.TabIndex = 2;
+            this.listBox1.Size = new System.Drawing.Size(143, 420);
+            this.listBox1.TabIndex = 6;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged_1);
+            // 
+            // panel3
+            // 
+            this.panel3.AutoSize = true;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.panel3.Location = new System.Drawing.Point(175, 13);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(10, 116);
+            this.panel3.TabIndex = 4;
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Location = new System.Drawing.Point(198, 412);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
+            this.richTextBox2.Size = new System.Drawing.Size(420, 21);
+            this.richTextBox2.TabIndex = 5;
+            this.richTextBox2.Text = "";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(198, 383);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.Size = new System.Drawing.Size(420, 21);
+            this.richTextBox1.TabIndex = 3;
+            this.richTextBox1.Text = "";
             // 
             // btnClose
             // 
@@ -333,20 +355,13 @@
             this.btnClose.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // panel3
+            // wbrowser
             // 
-            this.panel3.Location = new System.Drawing.Point(207, 12);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(438, 371);
-            this.panel3.TabIndex = 4;
-            // 
-            // richTextBox2
-            // 
-            this.richTextBox2.Location = new System.Drawing.Point(206, 416);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(439, 21);
-            this.richTextBox2.TabIndex = 5;
-            this.richTextBox2.Text = "";
+            this.wbrowser.ActivateBrowserOnCreation = false;
+            this.wbrowser.Location = new System.Drawing.Point(175, 17);
+            this.wbrowser.Name = "wbrowser";
+            this.wbrowser.Size = new System.Drawing.Size(470, 360);
+            this.wbrowser.TabIndex = 7;
             // 
             // Animations
             // 
@@ -363,6 +378,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -376,11 +392,12 @@
         private System.Windows.Forms.Label lbl_Title;
         private System.Windows.Forms.Panel panel2;
         private Bunifu.Framework.UI.BunifuFlatButton btnClose;
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private Bunifu.Framework.UI.BunifuFlatButton btnCPicker;
         private Bunifu.Framework.UI.BunifuFlatButton btnSpray;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.ListBox listBox1;
+        protected internal System.Windows.Forms.Panel panel3;
+        private CefSharp.WinForms.ChromiumWebBrowser wbrowser;
     }
 }
