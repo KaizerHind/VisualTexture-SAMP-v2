@@ -40,7 +40,6 @@ namespace VisualTexture_v2.Sections
             {
                 case 0: //Walls
                     panel3.Show();
-
                     tPic_1.Image = VisualTexture_v2.Properties.Resources.a51_floorpanel1;
                     tPic_2.Image = VisualTexture_v2.Properties.Resources.a51_panel2;
                     tPic_3.Image = VisualTexture_v2.Properties.Resources.a51_panels1;
@@ -75,102 +74,102 @@ namespace VisualTexture_v2.Sections
         private void tPic_1_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 16640,\"a51\",\"a51_floorpanel1\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"a51_floorpanel1\", 0xFFFFFFFF);";
         }
         private void tPic_2_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 16640,\"a51\",\"a51_panel2\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"a51_panel2\", 0xFFFFFFFF);";
         }
         private void tPic_3_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 16640,\"a51\",\"a51_panels1\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"a51_panels1\", 0xFFFFFFFF);";
         }
         private void tPic_4_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 16640,\"a51\",\"a51_strips1\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"a51_strips1\", 0xFFFFFFFF);";
         }
         private void tPic_5_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 16640,\"a51\",\"a51_vent1\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"a51_vent1\", 0xFFFFFFFF);";
         }
         private void tPic_6_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 16640,\"a51\",\"a51_wall1\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"a51_wall1\", 0xFFFFFFFF);";
         }
         private void tPic_7_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 9514,\"711_sfw\",\"brick\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 9514,\"711_sfw\",\"brick\", 0xFFFFFFFF);";
         }
         private void tPic_8_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 16640,\"a51\",\"carparkwall12_256\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"carparkwall12_256\", 0xFFFFFFFF);";
         }
         private void tPic_9_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 16640,\"a51\",\"concretegroundl1_256\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"concretegroundl1_256\", 0xFFFFFFFF);";
         }
         private void tPic_10_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 16640,\"a51\",\"concretewall22_256\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"concretewall22_256\", 0xFFFFFFFF);";
         }
         private void tPic_11_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 16640,\"a51\",\"concreteyellow256_copy\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"concreteyellow256_copy\", 0xFFFFFFFF);";
         }
         private void tPic_12_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 16640,\"a51\",\"des_factower\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"des_factower\", 0xFFFFFFFF);";
         }
         private void tPic_13_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 10101,\"2notherbuildsfe\",\"ferry_build14\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 10101,\"2notherbuildsfe\",\"ferry_build14\", 0xFFFFFFFF);";
         }
         private void tPic_14_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 16640,\"a51\",\"Metalox64\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"Metalox64\", 0xFFFFFFFF);";
         }
         private void tPic_15_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 9514,\"711_sfw\",\"pcut_bot_law\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 9514,\"711_sfw\",\"pcut_bot_law\", 0xFFFFFFFF);";
         }
         private void tPic_16_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 9514,\"711_sfw\",\"rebrckwall_128\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 9514,\"711_sfw\",\"rebrckwall_128\", 0xFFFFFFFF);";
         }
         private void tPic_17_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 16640,\"a51\",\"redmetal\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"redmetal\", 0xFFFFFFFF);";
         }
         private void tPic_18_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 9514,\"711_sfw\",\"shingles2\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 9514,\"711_sfw\",\"shingles2\", 0xFFFFFFFF);";
         }
         private void tPic_19_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 10101,\"2notherbuildsfe\",\"sl_vicbrikwall01\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 10101,\"2notherbuildsfe\",\"sl_vicbrikwall01\", 0xFFFFFFFF);";
         }
         private void tPic_20_Click(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
-            richTextBox1.Text = "SetObjectMaterial(Var, 0, 10101,\"2notherbuildsfe\",\"sl_vicwall01\", 0xFFFFFFFF);";
+            richTextBox1.Text = "SetDynamicObjectMaterial(Var, 0, 10101,\"2notherbuildsfe\",\"sl_vicwall01\", 0xFFFFFFFF);";
         }
 
 
