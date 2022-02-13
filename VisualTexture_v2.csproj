@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.5.3">
-      <HintPath>..\..\..\Documents\GitHub\VisualTexture_Pawn_SA-MP_v2\Bunifu_UI_v1.5.3.dll</HintPath>
+      <HintPath>obj\Debug\TempPE\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
     <Reference Include="CefSharp, Version=88.2.90.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=MSIL">
       <HintPath>packages\CefSharp.Common.88.2.90\lib\net452\CefSharp.dll</HintPath>
