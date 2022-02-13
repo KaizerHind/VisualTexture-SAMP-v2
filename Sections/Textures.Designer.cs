@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Textures));
             this.bnfElipse = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.lbl_Title = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -41,6 +42,7 @@
             this.btnClose = new Bunifu.Framework.UI.BunifuFlatButton();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.tPic_21 = new System.Windows.Forms.PictureBox();
             this.tPic_20 = new System.Windows.Forms.PictureBox();
             this.tPic_19 = new System.Windows.Forms.PictureBox();
             this.tPic_18 = new System.Windows.Forms.PictureBox();
@@ -65,6 +67,7 @@
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tPic_21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tPic_20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tPic_19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tPic_18)).BeginInit();
@@ -371,6 +374,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.AutoScroll = true;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.tPic_21);
             this.panel3.Controls.Add(this.tPic_20);
             this.panel3.Controls.Add(this.tPic_19);
             this.panel3.Controls.Add(this.tPic_18);
@@ -394,7 +398,19 @@
             this.panel3.Location = new System.Drawing.Point(154, 11);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(491, 368);
+            this.panel3.TabIndex = 6;
             this.panel3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel3_MouseDown);
+            // 
+            // tPic_21
+            // 
+            this.tPic_21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tPic_21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.tPic_21.Location = new System.Drawing.Point(21, 520);
+            this.tPic_21.Name = "tPic_21";
+            this.tPic_21.Size = new System.Drawing.Size(95, 90);
+            this.tPic_21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.tPic_21.TabIndex = 23;
+            this.tPic_21.TabStop = false;
             // 
             // tPic_20
             // 
@@ -659,6 +675,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Textures";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Textures";
@@ -666,6 +683,7 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.tPic_21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tPic_20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tPic_19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tPic_18)).EndInit();
@@ -725,5 +743,6 @@
         private System.Windows.Forms.PictureBox tPic_5;
         private Bunifu.Framework.UI.BunifuFlatButton btnCPicker;
         private Bunifu.Framework.UI.BunifuFlatButton btnSpray;
+        private System.Windows.Forms.PictureBox tPic_21;
     }
 }

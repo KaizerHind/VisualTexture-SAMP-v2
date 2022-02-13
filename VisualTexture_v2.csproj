@@ -804,6 +804,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\spray50px.png" />
+    <None Include="Resources\Textures\Paredes\a51_glass.tif" />
     <Content Include="visualicon.ico" />
   </ItemGroup>
   <ItemGroup>
