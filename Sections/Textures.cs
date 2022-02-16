@@ -40,7 +40,7 @@ namespace VisualTexture_v2.Sections
             {
                 case 0: //Walls
                     panel3.Show();
-                    tPic_1.Image = VisualTexture_v2.Properties.Resources.a51_floorpanel1;
+                    /*tPic_1.Image = VisualTexture_v2.Properties.Resources.a51_floorpanel1;
                     tPic_2.Image = VisualTexture_v2.Properties.Resources.a51_panel2;
                     tPic_3.Image = VisualTexture_v2.Properties.Resources.a51_panels1;
                     tPic_4.Image = VisualTexture_v2.Properties.Resources.a51_strips1;
@@ -59,7 +59,7 @@ namespace VisualTexture_v2.Sections
                     tPic_17.Image = VisualTexture_v2.Properties.Resources.redmetal;
                     tPic_18.Image = VisualTexture_v2.Properties.Resources.shingles2;
                     tPic_19.Image = VisualTexture_v2.Properties.Resources.sl_vicbrikwall01;
-                    tPic_20.Image = VisualTexture_v2.Properties.Resources.sl_vicwall01;
+                    tPic_20.Image = VisualTexture_v2.Properties.Resources.sl_vicwall01;*/
 
                     break;
 

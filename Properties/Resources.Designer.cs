@@ -373,16 +373,6 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _711doors1 {
-            get {
-                object obj = ResourceManager.GetObject("711doors1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap _7cross {
             get {
                 object obj = ResourceManager.GetObject("_7cross", resourceCulture);
@@ -563,6 +553,46 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap a51_boffstuff1 {
+            get {
+                object obj = ResourceManager.GetObject("a51_boffstuff1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a51_boffstuff3 {
+            get {
+                object obj = ResourceManager.GetObject("a51_boffstuff3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a51_cardreader {
+            get {
+                object obj = ResourceManager.GetObject("a51_cardreader", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a51_fencsign {
+            get {
+                object obj = ResourceManager.GetObject("a51_fencsign", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap a51_floorpanel1 {
             get {
                 object obj = ResourceManager.GetObject("a51_floorpanel1", resourceCulture);
@@ -573,9 +603,69 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap a51_glass {
+            get {
+                object obj = ResourceManager.GetObject("a51_glass", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a51_handrail {
+            get {
+                object obj = ResourceManager.GetObject("a51_handrail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap a51_intdoor {
             get {
                 object obj = ResourceManager.GetObject("a51_intdoor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a51_labwall1 {
+            get {
+                object obj = ResourceManager.GetObject("a51_labwall1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a51_map {
+            get {
+                object obj = ResourceManager.GetObject("a51_map", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a51_metal1 {
+            get {
+                object obj = ResourceManager.GetObject("a51_metal1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a51_monitors {
+            get {
+                object obj = ResourceManager.GetObject("a51_monitors", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -596,6 +686,56 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap a51_panels1 {
             get {
                 object obj = ResourceManager.GetObject("a51_panels1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a51_pipeend {
+            get {
+                object obj = ResourceManager.GetObject("a51_pipeend", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a51_radardisp {
+            get {
+                object obj = ResourceManager.GetObject("a51_radardisp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a51_radarscan_m {
+            get {
+                object obj = ResourceManager.GetObject("a51_radarscan_m", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a51_secdesk {
+            get {
+                object obj = ResourceManager.GetObject("a51_secdesk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a51_sign1 {
+            get {
+                object obj = ResourceManager.GetObject("a51_sign1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -643,6 +783,46 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap aarprt1LAS {
+            get {
+                object obj = ResourceManager.GetObject("aarprt1LAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap aarprt3LAS {
+            get {
+                object obj = ResourceManager.GetObject("aarprt3LAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap aarprt4LAS {
+            get {
+                object obj = ResourceManager.GetObject("aarprt4LAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap aarprt5LAS {
+            get {
+                object obj = ResourceManager.GetObject("aarprt5LAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap aarprt6LAS {
             get {
                 object obj = ResourceManager.GetObject("aarprt6LAS", resourceCulture);
@@ -653,9 +833,69 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ab_ACcarrierDoor {
+        internal static System.Drawing.Bitmap aarprt8LAS {
             get {
-                object obj = ResourceManager.GetObject("ab_ACcarrierDoor", resourceCulture);
+                object obj = ResourceManager.GetObject("aarprt8LAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap aarprt91LAS {
+            get {
+                object obj = ResourceManager.GetObject("aarprt91LAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap aarprt92LAS {
+            get {
+                object obj = ResourceManager.GetObject("aarprt92LAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap aarprt93LAS {
+            get {
+                object obj = ResourceManager.GetObject("aarprt93LAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap aarprt9LAS {
+            get {
+                object obj = ResourceManager.GetObject("aarprt9LAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ab_BoltPanel2 {
+            get {
+                object obj = ResourceManager.GetObject("ab_BoltPanel2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ab_dialsSwitches {
+            get {
+                object obj = ResourceManager.GetObject("ab_dialsSwitches", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -673,6 +913,46 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ads003_copy {
+            get {
+                object obj = ResourceManager.GetObject("ads003_copy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap airblock1 {
+            get {
+                object obj = ResourceManager.GetObject("airblock1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap airblock2 {
+            get {
+                object obj = ResourceManager.GetObject("airblock2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap airblock3 {
+            get {
+                object obj = ResourceManager.GetObject("airblock3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap AirLogo {
             get {
                 object obj = ResourceManager.GetObject("AirLogo", resourceCulture);
@@ -683,9 +963,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap airportdoor1 {
+        internal static System.Drawing.Bitmap airportdanger {
             get {
-                object obj = ResourceManager.GetObject("airportdoor1", resourceCulture);
+                object obj = ResourceManager.GetObject("airportdanger", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -693,9 +973,49 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap alleydoor1 {
+        internal static System.Drawing.Bitmap airportwind03 {
             get {
-                object obj = ResourceManager.GetObject("alleydoor1", resourceCulture);
+                object obj = ResourceManager.GetObject("airportwind03", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap airsetest1_LAS {
+            get {
+                object obj = ResourceManager.GetObject("airsetest1_LAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap airstoof1_LAS {
+            get {
+                object obj = ResourceManager.GetObject("airstoof1_LAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap airvent_gz {
+            get {
+                object obj = ResourceManager.GetObject("airvent_gz", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap alax1_las {
+            get {
+                object obj = ResourceManager.GetObject("alax1_las", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -713,56 +1033,6 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap alleydoor3 {
-            get {
-                object obj = ResourceManager.GetObject("alleydoor3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap alleydoor4 {
-            get {
-                object obj = ResourceManager.GetObject("alleydoor4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap alleydoor6 {
-            get {
-                object obj = ResourceManager.GetObject("alleydoor6", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap alleydoor7 {
-            get {
-                object obj = ResourceManager.GetObject("alleydoor7", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap alleydoor8 {
-            get {
-                object obj = ResourceManager.GetObject("alleydoor8", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap alleydoor9b {
             get {
                 object obj = ResourceManager.GetObject("alleydoor9b", resourceCulture);
@@ -773,9 +1043,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap alleydoorb256 {
+        internal static System.Drawing.Bitmap aluminiumbands256 {
             get {
-                object obj = ResourceManager.GetObject("alleydoorb256", resourceCulture);
+                object obj = ResourceManager.GetObject("aluminiumbands256", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -783,9 +1053,149 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap alleydoorz256 {
+        internal static System.Drawing.Bitmap Alumox64 {
             get {
-                object obj = ResourceManager.GetObject("alleydoorz256", resourceCulture);
+                object obj = ResourceManager.GetObject("Alumox64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ammo_tube {
+            get {
+                object obj = ResourceManager.GetObject("ammo_tube", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ammotrn92crate64 {
+            get {
+                object obj = ResourceManager.GetObject("ammotrn92crate64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ammotrn92tarp128 {
+            get {
+                object obj = ResourceManager.GetObject("ammotrn92tarp128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ap_fuel2 {
+            get {
+                object obj = ResourceManager.GetObject("ap_fuel2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ap_fuel3 {
+            get {
+                object obj = ResourceManager.GetObject("ap_fuel3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ap_fuel4 {
+            get {
+                object obj = ResourceManager.GetObject("ap_fuel4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ap_learjet {
+            get {
+                object obj = ResourceManager.GetObject("ap_learjet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ap_metal1 {
+            get {
+                object obj = ResourceManager.GetObject("ap_metal1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ap_radar {
+            get {
+                object obj = ResourceManager.GetObject("ap_radar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ap_runwaysigns {
+            get {
+                object obj = ResourceManager.GetObject("ap_runwaysigns", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ap_runwaysigns2 {
+            get {
+                object obj = ResourceManager.GetObject("ap_runwaysigns2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap aptsign01_LA {
+            get {
+                object obj = ResourceManager.GetObject("aptsign01_LA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arch_plans {
+            get {
+                object obj = ResourceManager.GetObject("arch_plans", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arch_sign {
+            get {
+                object obj = ResourceManager.GetObject("arch_sign", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -816,6 +1226,16 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap art50px {
             get {
                 object obj = ResourceManager.GetObject("art50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap asandockw {
+            get {
+                object obj = ResourceManager.GetObject("asandockw", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -993,6 +1413,126 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ballyledge01_128 {
+            get {
+                object obj = ResourceManager.GetObject("ballyledge01_128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ballywall01_64 {
+            get {
+                object obj = ResourceManager.GetObject("ballywall01_64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ballywall02_128 {
+            get {
+                object obj = ResourceManager.GetObject("ballywall02_128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ballywindw01_128 {
+            get {
+                object obj = ResourceManager.GetObject("ballywindw01_128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ballywindw02_128 {
+            get {
+                object obj = ResourceManager.GetObject("ballywindw02_128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap banding3_64HV {
+            get {
+                object obj = ResourceManager.GetObject("banding3_64HV", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap banding3c_64HV {
+            get {
+                object obj = ResourceManager.GetObject("banding3c_64HV", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap banding5_64HV {
+            get {
+                object obj = ResourceManager.GetObject("banding5_64HV", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap banding8_64HV {
+            get {
+                object obj = ResourceManager.GetObject("banding8_64HV", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap banding9_64HV {
+            get {
+                object obj = ResourceManager.GetObject("banding9_64HV", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bank_sfe2 {
+            get {
+                object obj = ResourceManager.GetObject("bank_sfe2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bank_sfe5 {
+            get {
+                object obj = ResourceManager.GetObject("bank_sfe5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bar1_o {
             get {
                 object obj = ResourceManager.GetObject("bar1_o", resourceCulture);
@@ -1013,9 +1553,49 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bathtile01_int {
+            get {
+                object obj = ResourceManager.GetObject("bathtile01_int", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bathwin01_int {
+            get {
+                object obj = ResourceManager.GetObject("bathwin01_int", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bbback {
+            get {
+                object obj = ResourceManager.GetObject("bbback", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bckgrnd {
             get {
                 object obj = ResourceManager.GetObject("bckgrnd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap beachwall_law {
+            get {
+                object obj = ResourceManager.GetObject("beachwall_law", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1063,9 +1643,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bevdoor01_law {
+        internal static System.Drawing.Bitmap bevflower1 {
             get {
-                object obj = ResourceManager.GetObject("bevdoor01_law", resourceCulture);
+                object obj = ResourceManager.GetObject("bevflower1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1073,49 +1653,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bevdoor02_law {
+        internal static System.Drawing.Bitmap bevflower2 {
             get {
-                object obj = ResourceManager.GetObject("bevdoor02_law", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap bevdoor03_law {
-            get {
-                object obj = ResourceManager.GetObject("bevdoor03_law", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap bevdoor04_law {
-            get {
-                object obj = ResourceManager.GetObject("bevdoor04_law", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap bigwhite_4 {
-            get {
-                object obj = ResourceManager.GetObject("bigwhite_4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap bigwhite_5 {
-            get {
-                object obj = ResourceManager.GetObject("bigwhite_5", resourceCulture);
+                object obj = ResourceManager.GetObject("bevflower2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1136,6 +1676,46 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap black1 {
             get {
                 object obj = ResourceManager.GetObject("black1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap black64 {
+            get {
+                object obj = ResourceManager.GetObject("black64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap black641 {
+            get {
+                object obj = ResourceManager.GetObject("black641", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blackdirt {
+            get {
+                object obj = ResourceManager.GetObject("blackdirt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blackshadow4 {
+            get {
+                object obj = ResourceManager.GetObject("blackshadow4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1173,6 +1753,36 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BLOCK {
+            get {
+                object obj = ResourceManager.GetObject("BLOCK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BLOCK2 {
+            get {
+                object obj = ResourceManager.GetObject("BLOCK2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap block2_high {
+            get {
+                object obj = ResourceManager.GetObject("block2_high", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bloodpool_64 {
             get {
                 object obj = ResourceManager.GetObject("bloodpool_64", resourceCulture);
@@ -1193,9 +1803,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Bow_bar_entrance_door {
+        internal static System.Drawing.Bitmap bluemetal {
             get {
-                object obj = ResourceManager.GetObject("Bow_bar_entrance_door", resourceCulture);
+                object obj = ResourceManager.GetObject("bluemetal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1203,9 +1813,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Bow_door_graffiti_128 {
+        internal static System.Drawing.Bitmap bobo_2 {
             get {
-                object obj = ResourceManager.GetObject("Bow_door_graffiti_128", resourceCulture);
+                object obj = ResourceManager.GetObject("bobo_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1213,9 +1823,49 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Bow_Load_Door {
+        internal static System.Drawing.Bitmap bobo_3 {
             get {
-                object obj = ResourceManager.GetObject("Bow_Load_Door", resourceCulture);
+                object obj = ResourceManager.GetObject("bobo_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bonyrd_skin2 {
+            get {
+                object obj = ResourceManager.GetObject("bonyrd_skin2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bow_Abpave_Gen {
+            get {
+                object obj = ResourceManager.GetObject("Bow_Abpave_Gen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bow_church_dirt {
+            get {
+                object obj = ResourceManager.GetObject("Bow_church_dirt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bow_church_grass_alt {
+            get {
+                object obj = ResourceManager.GetObject("Bow_church_grass_alt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1233,9 +1883,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Bow_LoadingBayDoor {
+        internal static System.Drawing.Bitmap Bow_Warehousewall {
             get {
-                object obj = ResourceManager.GetObject("Bow_LoadingBayDoor", resourceCulture);
+                object obj = ResourceManager.GetObject("Bow_Warehousewall", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1246,6 +1896,16 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap brboat {
             get {
                 object obj = ResourceManager.GetObject("brboat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap brckwhtwash128 {
+            get {
+                object obj = ResourceManager.GetObject("brckwhtwash128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1353,9 +2013,29 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap brnstucco1 {
+            get {
+                object obj = ResourceManager.GetObject("brnstucco1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bronze {
             get {
                 object obj = ResourceManager.GetObject("bronze", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap brwall_128 {
+            get {
+                object obj = ResourceManager.GetObject("brwall_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1396,6 +2076,16 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap bumble {
             get {
                 object obj = ResourceManager.GetObject("bumble", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bumptile {
+            get {
+                object obj = ResourceManager.GetObject("bumptile", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1463,29 +2153,29 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cabin5 {
+            get {
+                object obj = ResourceManager.GetObject("cabin5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cabin6 {
+            get {
+                object obj = ResourceManager.GetObject("cabin6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap carfx1 {
             get {
                 object obj = ResourceManager.GetObject("carfx1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap cargodoor_128 {
-            get {
-                object obj = ResourceManager.GetObject("cargodoor_128", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap carparkdoor1_256 {
-            get {
-                object obj = ResourceManager.GetObject("carparkdoor1_256", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1523,9 +2213,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap casinodoor_frmnt {
+        internal static System.Drawing.Bitmap casinolightsblu_128 {
             get {
-                object obj = ResourceManager.GetObject("casinodoor_frmnt", resourceCulture);
+                object obj = ResourceManager.GetObject("casinolightsblu_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2623,9 +3313,39 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cheerybox03 {
+            get {
+                object obj = ResourceManager.GetObject("cheerybox03", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cherry {
             get {
                 object obj = ResourceManager.GetObject("cherry", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap chevron_red_64HVa {
+            get {
+                object obj = ResourceManager.GetObject("chevron_red_64HVa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap chevron64HVa {
+            get {
+                object obj = ResourceManager.GetObject("chevron64HVa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2653,9 +3373,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cityhalldoor1 {
+        internal static System.Drawing.Bitmap CJ_7_11_win {
             get {
-                object obj = ResourceManager.GetObject("cityhalldoor1", resourceCulture);
+                object obj = ResourceManager.GetObject("CJ_7_11_win", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2663,9 +3383,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CJ_DOOR6 {
+        internal static System.Drawing.Bitmap CJ_blackplastic {
             get {
-                object obj = ResourceManager.GetObject("CJ_DOOR6", resourceCulture);
+                object obj = ResourceManager.GetObject("CJ_blackplastic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2673,9 +3393,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CJ_PIZZA_DOOR {
+        internal static System.Drawing.Bitmap CJ_BULLETBRASS {
             get {
-                object obj = ResourceManager.GetObject("CJ_PIZZA_DOOR", resourceCulture);
+                object obj = ResourceManager.GetObject("CJ_BULLETBRASS", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2683,9 +3403,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CJ_SCOR_DOOR {
+        internal static System.Drawing.Bitmap CJ_CHROME2 {
             get {
-                object obj = ResourceManager.GetObject("CJ_SCOR_DOOR", resourceCulture);
+                object obj = ResourceManager.GetObject("CJ_CHROME2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2693,9 +3413,79 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CJ_SUB_DOORS {
+        internal static System.Drawing.Bitmap CJ_LAMPPOST1 {
             get {
-                object obj = ResourceManager.GetObject("CJ_SUB_DOORS", resourceCulture);
+                object obj = ResourceManager.GetObject("CJ_LAMPPOST1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CJ_plating {
+            get {
+                object obj = ResourceManager.GetObject("CJ_plating", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cj_plating2 {
+            get {
+                object obj = ResourceManager.GetObject("cj_plating2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cj_plating3 {
+            get {
+                object obj = ResourceManager.GetObject("cj_plating3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cj_sheet2 {
+            get {
+                object obj = ResourceManager.GetObject("cj_sheet2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cj_sheetmetal {
+            get {
+                object obj = ResourceManager.GetObject("cj_sheetmetal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cj_sheetmetal2 {
+            get {
+                object obj = ResourceManager.GetObject("cj_sheetmetal2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CJ_WOOD1 {
+            get {
+                object obj = ResourceManager.GetObject("CJ_WOOD1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2733,9 +3523,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap clubdoor1_256 {
+        internal static System.Drawing.Bitmap coasty_bit3_sfe {
             get {
-                object obj = ResourceManager.GetObject("clubdoor1_256", resourceCulture);
+                object obj = ResourceManager.GetObject("coasty_bit3_sfe", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2753,89 +3543,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap compdoor1_LAe {
+        internal static System.Drawing.Bitmap conc_wall_stripd2128h {
             get {
-                object obj = ResourceManager.GetObject("compdoor1_LAe", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap compdoor2_LAe {
-            get {
-                object obj = ResourceManager.GetObject("compdoor2_LAe", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap compdoor4_LAe {
-            get {
-                object obj = ResourceManager.GetObject("compdoor4_LAe", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap compdoor5_LAe {
-            get {
-                object obj = ResourceManager.GetObject("compdoor5_LAe", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap compdoor6_LAe {
-            get {
-                object obj = ResourceManager.GetObject("compdoor6_LAe", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap comptdoor1 {
-            get {
-                object obj = ResourceManager.GetObject("comptdoor1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap comptdoor2 {
-            get {
-                object obj = ResourceManager.GetObject("comptdoor2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap comptdoor3 {
-            get {
-                object obj = ResourceManager.GetObject("comptdoor3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap comptdoor4 {
-            get {
-                object obj = ResourceManager.GetObject("comptdoor4", resourceCulture);
+                object obj = ResourceManager.GetObject("conc_wall_stripd2128h", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2846,6 +3556,26 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap concretegroundl1_256 {
             get {
                 object obj = ResourceManager.GetObject("concretegroundl1_256", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap concretemanky {
+            get {
+                object obj = ResourceManager.GetObject("concretemanky", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap concretenewb256 {
+            get {
+                object obj = ResourceManager.GetObject("concretenewb256", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2866,6 +3596,46 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap concreteyellow256_copy {
             get {
                 object obj = ResourceManager.GetObject("concreteyellow256_copy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap copshop2 {
+            get {
+                object obj = ResourceManager.GetObject("copshop2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap copshop3 {
+            get {
+                object obj = ResourceManager.GetObject("copshop3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap copshop5 {
+            get {
+                object obj = ResourceManager.GetObject("copshop5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap copshop6 {
+            get {
+                object obj = ResourceManager.GetObject("copshop6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2933,9 +3703,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap corporate2 {
+        internal static System.Drawing.Bitmap corrRoof_64HV {
             get {
-                object obj = ResourceManager.GetObject("corporate2", resourceCulture);
+                object obj = ResourceManager.GetObject("corrRoof_64HV", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2943,9 +3713,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap corporate3 {
+        internal static System.Drawing.Bitmap corugwall_sandy {
             get {
-                object obj = ResourceManager.GetObject("corporate3", resourceCulture);
+                object obj = ResourceManager.GetObject("corugwall_sandy", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2953,9 +3723,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap corporate3green_128 {
+        internal static System.Drawing.Bitmap cos_hiwaymid_256 {
             get {
-                object obj = ResourceManager.GetObject("corporate3green_128", resourceCulture);
+                object obj = ResourceManager.GetObject("cos_hiwaymid_256", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2963,9 +3733,39 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap crapdoor1_256 {
+        internal static System.Drawing.Bitmap crackedgroundb {
             get {
-                object obj = ResourceManager.GetObject("crapdoor1_256", resourceCulture);
+                object obj = ResourceManager.GetObject("crackedgroundb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Crate_B {
+            get {
+                object obj = ResourceManager.GetObject("Crate_B", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cratec {
+            get {
+                object obj = ResourceManager.GetObject("cratec", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cratetop128 {
+            get {
+                object obj = ResourceManager.GetObject("cratetop128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3003,6 +3803,36 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dam_gencon {
+            get {
+                object obj = ResourceManager.GetObject("dam_gencon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dam_gencrane {
+            get {
+                object obj = ResourceManager.GetObject("dam_gencrane", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dam_terazzo {
+            get {
+                object obj = ResourceManager.GetObject("dam_terazzo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dark {
             get {
                 object obj = ResourceManager.GetObject("dark", resourceCulture);
@@ -3033,36 +3863,6 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap des_adobedoor1 {
-            get {
-                object obj = ResourceManager.GetObject("des_adobedoor1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap des_adobedoor2 {
-            get {
-                object obj = ResourceManager.GetObject("des_adobedoor2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap des_adobedoor3 {
-            get {
-                object obj = ResourceManager.GetObject("des_adobedoor3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap des_backdoor1 {
             get {
                 object obj = ResourceManager.GetObject("des_backdoor1", resourceCulture);
@@ -3073,9 +3873,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap des_door1 {
+        internal static System.Drawing.Bitmap des_dirt1 {
             get {
-                object obj = ResourceManager.GetObject("des_door1", resourceCulture);
+                object obj = ResourceManager.GetObject("des_dirt1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3083,9 +3883,29 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap des_door2 {
+        internal static System.Drawing.Bitmap des_dirttrack1 {
             get {
-                object obj = ResourceManager.GetObject("des_door2", resourceCulture);
+                object obj = ResourceManager.GetObject("des_dirttrack1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap des_dirttrack1r {
+            get {
+                object obj = ResourceManager.GetObject("des_dirttrack1r", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap des_elepylon {
+            get {
+                object obj = ResourceManager.GetObject("des_elepylon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3103,9 +3923,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap des_greendoor {
+        internal static System.Drawing.Bitmap des_ghotwood1 {
             get {
-                object obj = ResourceManager.GetObject("des_greendoor", resourceCulture);
+                object obj = ResourceManager.GetObject("des_ghotwood1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3113,9 +3933,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap des_metaldoor1 {
+        internal static System.Drawing.Bitmap des_rails1 {
             get {
-                object obj = ResourceManager.GetObject("des_metaldoor1", resourceCulture);
+                object obj = ResourceManager.GetObject("des_rails1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3123,9 +3943,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap des_ntwndoor1 {
+        internal static System.Drawing.Bitmap des_tunnellight {
             get {
-                object obj = ResourceManager.GetObject("des_ntwndoor1", resourceCulture);
+                object obj = ResourceManager.GetObject("des_tunnellight", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3133,9 +3953,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap des_ntwndoor2 {
+        internal static System.Drawing.Bitmap desbarlas {
             get {
-                object obj = ResourceManager.GetObject("des_ntwndoor2", resourceCulture);
+                object obj = ResourceManager.GetObject("desbarlas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3143,9 +3963,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap des_ntwndoor3 {
+        internal static System.Drawing.Bitmap desgreengrass {
             get {
-                object obj = ResourceManager.GetObject("des_ntwndoor3", resourceCulture);
+                object obj = ResourceManager.GetObject("desgreengrass", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3153,9 +3973,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap des_ntwnwin6 {
+        internal static System.Drawing.Bitmap diderSachs01 {
             get {
-                object obj = ResourceManager.GetObject("des_ntwnwin6", resourceCulture);
+                object obj = ResourceManager.GetObject("diderSachs01", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3163,9 +3983,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap des_thfdoor {
+        internal static System.Drawing.Bitmap dior {
             get {
-                object obj = ResourceManager.GetObject("des_thfdoor", resourceCulture);
+                object obj = ResourceManager.GetObject("dior", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3173,9 +3993,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap des_wigwamdoor {
+        internal static System.Drawing.Bitmap dirtywhite {
             get {
-                object obj = ResourceManager.GetObject("des_wigwamdoor", resourceCulture);
+                object obj = ResourceManager.GetObject("dirtywhite", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3183,9 +4003,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap des_woodshopdoor1 {
+        internal static System.Drawing.Bitmap dish_base2 {
             get {
-                object obj = ResourceManager.GetObject("des_woodshopdoor1", resourceCulture);
+                object obj = ResourceManager.GetObject("dish_base2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3193,9 +4013,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap door_pan1_64_128 {
+        internal static System.Drawing.Bitmap dish_panel_a {
             get {
-                object obj = ResourceManager.GetObject("door_pan1_64_128", resourceCulture);
+                object obj = ResourceManager.GetObject("dish_panel_a", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3203,9 +4023,19 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap doornvent256128 {
+        internal static System.Drawing.Bitmap dish_roundbit_a {
             get {
-                object obj = ResourceManager.GetObject("doornvent256128", resourceCulture);
+                object obj = ResourceManager.GetObject("dish_roundbit_a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dockwall1 {
+            get {
+                object obj = ResourceManager.GetObject("dockwall1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3273,9 +4103,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap drvin_door1 {
+        internal static System.Drawing.Bitmap dt_carpark_line_texture {
             get {
-                object obj = ResourceManager.GetObject("drvin_door1", resourceCulture);
+                object obj = ResourceManager.GetObject("dt_carpark_line_texture", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3283,9 +4113,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap drvin_door2 {
+        internal static System.Drawing.Bitmap dt_road {
             get {
-                object obj = ResourceManager.GetObject("drvin_door2", resourceCulture);
+                object obj = ResourceManager.GetObject("dt_road", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3293,9 +4123,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dt_ind_door {
+        internal static System.Drawing.Bitmap dt_road_stoplinea {
             get {
-                object obj = ResourceManager.GetObject("dt_ind_door", resourceCulture);
+                object obj = ResourceManager.GetObject("dt_road_stoplinea", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3303,9 +4133,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dt_scyscrap_door2 {
+        internal static System.Drawing.Bitmap dts_spotlight {
             get {
-                object obj = ResourceManager.GetObject("dt_scyscrap_door2", resourceCulture);
+                object obj = ResourceManager.GetObject("dts_spotlight", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3333,9 +4163,29 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap easykerb {
+            get {
+                object obj = ResourceManager.GetObject("easykerb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap eax {
             get {
                 object obj = ResourceManager.GetObject("eax", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap elecbox2 {
+            get {
+                object obj = ResourceManager.GetObject("elecbox2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3603,9 +4453,39 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fancy_slab128 {
+            get {
+                object obj = ResourceManager.GetObject("fancy_slab128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fen {
             get {
                 object obj = ResourceManager.GetObject("fen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fence_64 {
+            get {
+                object obj = ResourceManager.GetObject("fence_64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fencekb_64h {
+            get {
+                object obj = ResourceManager.GetObject("fencekb_64h", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3703,9 +4583,79 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap foodmartla1 {
+            get {
+                object obj = ResourceManager.GetObject("foodmartla1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap force {
             get {
                 object obj = ResourceManager.GetObject("force", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap frate_doors128red {
+            get {
+                object obj = ResourceManager.GetObject("frate_doors128red", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap frate_doors64 {
+            get {
+                object obj = ResourceManager.GetObject("frate_doors64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap frate_doors64yellow {
+            get {
+                object obj = ResourceManager.GetObject("frate_doors64yellow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap frate64_blue {
+            get {
+                object obj = ResourceManager.GetObject("frate64_blue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap frate64_red {
+            get {
+                object obj = ResourceManager.GetObject("frate64_red", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap frate64_yellow {
+            get {
+                object obj = ResourceManager.GetObject("frate64_yellow", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3723,39 +4673,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap garagedoor4_law {
+        internal static System.Drawing.Bitmap gallery01_law {
             get {
-                object obj = ResourceManager.GetObject("garagedoor4_law", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap garagedoor5_law {
-            get {
-                object obj = ResourceManager.GetObject("garagedoor5_law", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap garargeb2 {
-            get {
-                object obj = ResourceManager.GetObject("garargeb2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GB_doorpur01 {
-            get {
-                object obj = ResourceManager.GetObject("GB_doorpur01", resourceCulture);
+                object obj = ResourceManager.GetObject("gallery01_law", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3773,9 +4693,99 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gen_chrome {
+            get {
+                object obj = ResourceManager.GetObject("gen_chrome", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gen_Crate {
+            get {
+                object obj = ResourceManager.GetObject("Gen_Crate", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gen_Freight {
+            get {
+                object obj = ResourceManager.GetObject("Gen_Freight", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gen_Keyboard {
+            get {
+                object obj = ResourceManager.GetObject("Gen_Keyboard", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gen_Meshfencing {
+            get {
+                object obj = ResourceManager.GetObject("Gen_Meshfencing", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gen_Monitor {
+            get {
+                object obj = ResourceManager.GetObject("Gen_Monitor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ghost {
             get {
                 object obj = ResourceManager.GetObject("ghost", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap girder2_grey_64HV {
+            get {
+                object obj = ResourceManager.GetObject("girder2_grey_64HV", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap glass_64a {
+            get {
+                object obj = ResourceManager.GetObject("glass_64a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gnhotelwall02_128 {
+            get {
+                object obj = ResourceManager.GetObject("gnhotelwall02_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3836,6 +4846,76 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap gras07Si {
             get {
                 object obj = ResourceManager.GetObject("gras07Si", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Grass_128HV {
+            get {
+                object obj = ResourceManager.GetObject("Grass_128HV", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Grass_concpath_128HV {
+            get {
+                object obj = ResourceManager.GetObject("Grass_concpath_128HV", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grassdry_128HV {
+            get {
+                object obj = ResourceManager.GetObject("grassdry_128HV", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grassgrn256 {
+            get {
+                object obj = ResourceManager.GetObject("grassgrn256", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap greyground256 {
+            get {
+                object obj = ResourceManager.GetObject("greyground256", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap greyground256128 {
+            get {
+                object obj = ResourceManager.GetObject("greyground256128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gridchev_64HV {
+            get {
+                object obj = ResourceManager.GetObject("gridchev_64HV", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3923,9 +5003,129 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap gz_sf_door12b {
+        internal static System.Drawing.Bitmap grn_window2_16 {
             get {
-                object obj = ResourceManager.GetObject("gz_sf_door12b", resourceCulture);
+                object obj = ResourceManager.GetObject("grn_window2_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gun_katana {
+            get {
+                object obj = ResourceManager.GetObject("gun_katana", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gun_python {
+            get {
+                object obj = ResourceManager.GetObject("gun_python", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gymshop1_LAe {
+            get {
+                object obj = ResourceManager.GetObject("gymshop1_LAe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gz_vic1a {
+            get {
+                object obj = ResourceManager.GetObject("gz_vic1a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gz_vic1b {
+            get {
+                object obj = ResourceManager.GetObject("gz_vic1b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gz_vic1c {
+            get {
+                object obj = ResourceManager.GetObject("gz_vic1c", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gz_vic1d {
+            get {
+                object obj = ResourceManager.GetObject("gz_vic1d", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gz_vic1e {
+            get {
+                object obj = ResourceManager.GetObject("gz_vic1e", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gz_vic2a {
+            get {
+                object obj = ResourceManager.GetObject("gz_vic2a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gz_vic2b {
+            get {
+                object obj = ResourceManager.GetObject("gz_vic2b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gz_vic2c {
+            get {
+                object obj = ResourceManager.GetObject("gz_vic2c", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gz_vic2d {
+            get {
+                object obj = ResourceManager.GetObject("gz_vic2d", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3953,9 +5153,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap halldoor01_law {
+        internal static System.Drawing.Bitmap handman {
             get {
-                object obj = ResourceManager.GetObject("halldoor01_law", resourceCulture);
+                object obj = ResourceManager.GetObject("handman", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3963,9 +5163,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap handman {
+        internal static System.Drawing.Bitmap hangingwires1 {
             get {
-                object obj = ResourceManager.GetObject("handman", resourceCulture);
+                object obj = ResourceManager.GetObject("hangingwires1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4043,6 +5243,36 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hedge2 {
+            get {
+                object obj = ResourceManager.GetObject("hedge2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Heliconcrete {
+            get {
+                object obj = ResourceManager.GetObject("Heliconcrete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap helipad_bits {
+            get {
+                object obj = ResourceManager.GetObject("helipad_bits", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hi_a {
             get {
                 object obj = ResourceManager.GetObject("hi_a", resourceCulture);
@@ -4066,6 +5296,16 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap hi_c {
             get {
                 object obj = ResourceManager.GetObject("hi_c", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HighRoller01_256 {
+            get {
+                object obj = ResourceManager.GetObject("HighRoller01_256", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4143,6 +5383,16 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap homies_1 {
+            get {
+                object obj = ResourceManager.GetObject("homies_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hon {
             get {
                 object obj = ResourceManager.GetObject("hon", resourceCulture);
@@ -4153,9 +5403,29 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap hosdoor01_law {
+        internal static System.Drawing.Bitmap hortonsnug2_256 {
             get {
-                object obj = ResourceManager.GetObject("hosdoor01_law", resourceCulture);
+                object obj = ResourceManager.GetObject("hortonsnug2_256", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hotel_bit2 {
+            get {
+                object obj = ResourceManager.GetObject("hotel_bit2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hoteldetails2 {
+            get {
+                object obj = ResourceManager.GetObject("hoteldetails2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4243,66 +5513,6 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap inddoor1 {
-            get {
-                object obj = ResourceManager.GetObject("inddoor1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap inddoor5 {
-            get {
-                object obj = ResourceManager.GetObject("inddoor5", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap inddoor7 {
-            get {
-                object obj = ResourceManager.GetObject("inddoor7", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap inddoordark128 {
-            get {
-                object obj = ResourceManager.GetObject("inddoordark128", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap inddoorway128 {
-            get {
-                object obj = ResourceManager.GetObject("inddoorway128", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap int02_128 {
-            get {
-                object obj = ResourceManager.GetObject("int02_128", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap intro1 {
             get {
                 object obj = ResourceManager.GetObject("intro1", resourceCulture);
@@ -4343,9 +5553,59 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap jumpit {
+            get {
+                object obj = ResourceManager.GetObject("jumpit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap jumptop1_64 {
+            get {
+                object obj = ResourceManager.GetObject("jumptop1_64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kami {
             get {
                 object obj = ResourceManager.GetObject("kami", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kb_ivy_256 {
+            get {
+                object obj = ResourceManager.GetObject("kb_ivy_256", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kbpavement_test {
+            get {
+                object obj = ResourceManager.GetObject("kbpavement_test", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kbplanter_plants1 {
+            get {
+                object obj = ResourceManager.GetObject("kbplanter_plants1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4363,16 +5623,6 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap lasbevcit7 {
-            get {
-                object obj = ResourceManager.GetObject("lasbevcit7", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap lasjmdoorgud {
             get {
                 object obj = ResourceManager.GetObject("lasjmdoorgud", resourceCulture);
@@ -4383,9 +5633,49 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap lasmalhus92 {
+        internal static System.Drawing.Bitmap lasjmfence1 {
             get {
-                object obj = ResourceManager.GetObject("lasmalhus92", resourceCulture);
+                object obj = ResourceManager.GetObject("lasjmfence1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LASLACMA6 {
+            get {
+                object obj = ResourceManager.GetObject("LASLACMA6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LASLACMA93 {
+            get {
+                object obj = ResourceManager.GetObject("LASLACMA93", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LASLACMA96 {
+            get {
+                object obj = ResourceManager.GetObject("LASLACMA96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lastrk6 {
+            get {
+                object obj = ResourceManager.GetObject("lastrk6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4423,6 +5713,16 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap leather_seat_256 {
+            get {
+                object obj = ResourceManager.GetObject("leather_seat_256", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap left {
             get {
                 object obj = ResourceManager.GetObject("left", resourceCulture);
@@ -4436,16 +5736,6 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap left1 {
             get {
                 object obj = ResourceManager.GetObject("left1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap liftdoors_kb_256 {
-            get {
-                object obj = ResourceManager.GetObject("liftdoors_kb_256", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4496,16 +5786,6 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap load0uk {
             get {
                 object obj = ResourceManager.GetObject("load0uk", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap LoadingDoorClean {
-            get {
-                object obj = ResourceManager.GetObject("LoadingDoorClean", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4983,9 +6263,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Lombard_door1 {
+        internal static System.Drawing.Bitmap lostonclad1 {
             get {
-                object obj = ResourceManager.GetObject("Lombard_door1", resourceCulture);
+                object obj = ResourceManager.GetObject("lostonclad1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5003,6 +6283,16 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mallextmid01 {
+            get {
+                object obj = ResourceManager.GetObject("mallextmid01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap map {
             get {
                 object obj = ResourceManager.GetObject("map", resourceCulture);
@@ -5013,9 +6303,39 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap metaldoor01_256 {
+        internal static System.Drawing.Bitmap Metal3_128 {
             get {
-                object obj = ResourceManager.GetObject("metaldoor01_256", resourceCulture);
+                object obj = ResourceManager.GetObject("Metal3_128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap metaldoor_128 {
+            get {
+                object obj = ResourceManager.GetObject("metaldoor_128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap metalic_64 {
+            get {
+                object obj = ResourceManager.GetObject("metalic_64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap metalic128 {
+            get {
+                object obj = ResourceManager.GetObject("metalic128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5033,6 +6353,66 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap metpat64 {
+            get {
+                object obj = ResourceManager.GetObject("metpat64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap metpat64chev_128 {
+            get {
+                object obj = ResourceManager.GetObject("metpat64chev_128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mirrwind1_LAn {
+            get {
+                object obj = ResourceManager.GetObject("mirrwind1_LAn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mirrwind4_LAn {
+            get {
+                object obj = ResourceManager.GetObject("mirrwind4_LAn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mono1_sfe {
+            get {
+                object obj = ResourceManager.GetObject("mono1_sfe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mono2_sfe {
+            get {
+                object obj = ResourceManager.GetObject("mono2_sfe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mouse {
             get {
                 object obj = ResourceManager.GetObject("mouse", resourceCulture);
@@ -5043,9 +6423,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap mp_carter_doorway {
+        internal static System.Drawing.Bitmap mp_jet_seat {
             get {
-                object obj = ResourceManager.GetObject("mp_carter_doorway", resourceCulture);
+                object obj = ResourceManager.GetObject("mp_jet_seat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5073,6 +6453,26 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap newall4_4 {
+            get {
+                object obj = ResourceManager.GetObject("newall4_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap newtreeleaves128 {
+            get {
+                object obj = ResourceManager.GetObject("newtreeleaves128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap nib {
             get {
                 object obj = ResourceManager.GetObject("nib", resourceCulture);
@@ -5086,6 +6486,16 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap nmef {
             get {
                 object obj = ResourceManager.GetObject("nmef", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nopark128 {
+            get {
+                object obj = ResourceManager.GetObject("nopark128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5123,9 +6533,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pawn_door01 {
+        internal static System.Drawing.Bitmap pavegrey128 {
             get {
-                object obj = ResourceManager.GetObject("pawn_door01", resourceCulture);
+                object obj = ResourceManager.GetObject("pavegrey128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5153,9 +6563,39 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap plainwoodoor2 {
+        internal static System.Drawing.Bitmap plaintarmac1 {
             get {
-                object obj = ResourceManager.GetObject("plainwoodoor2", resourceCulture);
+                object obj = ResourceManager.GetObject("plaintarmac1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap planetunnel_64HV {
+            get {
+                object obj = ResourceManager.GetObject("planetunnel_64HV", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap planks01 {
+            get {
+                object obj = ResourceManager.GetObject("planks01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap planks64 {
+            get {
+                object obj = ResourceManager.GetObject("planks64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5246,6 +6686,16 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap pole2 {
             get {
                 object obj = ResourceManager.GetObject("pole2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap policeha02black_128 {
+            get {
+                object obj = ResourceManager.GetObject("policeha02black_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5353,6 +6803,16 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap prolaps01 {
+            get {
+                object obj = ResourceManager.GetObject("prolaps01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ps1 {
             get {
                 object obj = ResourceManager.GetObject("ps1", resourceCulture);
@@ -5376,6 +6836,16 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap ps3 {
             get {
                 object obj = ResourceManager.GetObject("ps3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap quarry_conv_belt_struct {
+            get {
+                object obj = ResourceManager.GetObject("quarry_conv_belt_struct", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6543,9 +8013,49 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap redband_64Ha {
+            get {
+                object obj = ResourceManager.GetObject("redband_64Ha", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap redmetal {
             get {
                 object obj = ResourceManager.GetObject("redmetal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap redpylon {
+            get {
+                object obj = ResourceManager.GetObject("redpylon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap redwhite_stripe {
+            get {
+                object obj = ResourceManager.GetObject("redwhite_stripe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap retainwall1 {
+            get {
+                object obj = ResourceManager.GetObject("retainwall1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6666,6 +8176,36 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap rockshp1 {
             get {
                 object obj = ResourceManager.GetObject("rockshp1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap roof09L256 {
+            get {
+                object obj = ResourceManager.GetObject("roof09L256", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rooftop_gz3 {
+            get {
+                object obj = ResourceManager.GetObject("rooftop_gz3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap roucghstonebrtb {
+            get {
+                object obj = ResourceManager.GetObject("roucghstonebrtb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6823,6 +8363,116 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap rustyboltpanel {
+            get {
+                object obj = ResourceManager.GetObject("rustyboltpanel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rustybolts {
+            get {
+                object obj = ResourceManager.GetObject("rustybolts", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sam_camo {
+            get {
+                object obj = ResourceManager.GetObject("sam_camo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sanairtex1 {
+            get {
+                object obj = ResourceManager.GetObject("sanairtex1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sanairtex2 {
+            get {
+                object obj = ResourceManager.GetObject("sanairtex2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sanpedock5 {
+            get {
+                object obj = ResourceManager.GetObject("sanpedock5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sanpedock7 {
+            get {
+                object obj = ResourceManager.GetObject("sanpedock7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sanpedock8 {
+            get {
+                object obj = ResourceManager.GetObject("sanpedock8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scaff2flas {
+            get {
+                object obj = ResourceManager.GetObject("scaff2flas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scratchedmetal {
+            get {
+                object obj = ResourceManager.GetObject("scratchedmetal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sea_wall_temp {
+            get {
+                object obj = ResourceManager.GetObject("sea_wall_temp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap seabd32 {
             get {
                 object obj = ResourceManager.GetObject("seabd32", resourceCulture);
@@ -6833,9 +8483,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sf_garagedr1 {
+        internal static System.Drawing.Bitmap sf_chinashop2 {
             get {
-                object obj = ResourceManager.GetObject("sf_garagedr1", resourceCulture);
+                object obj = ResourceManager.GetObject("sf_chinashop2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6843,9 +8493,129 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sf_ship_door {
+        internal static System.Drawing.Bitmap sf_junction5 {
             get {
-                object obj = ResourceManager.GetObject("sf_ship_door", resourceCulture);
+                object obj = ResourceManager.GetObject("sf_junction5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sf_pave2 {
+            get {
+                object obj = ResourceManager.GetObject("sf_pave2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sf_pave6 {
+            get {
+                object obj = ResourceManager.GetObject("sf_pave6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sf_road5 {
+            get {
+                object obj = ResourceManager.GetObject("sf_road5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sf_shop2 {
+            get {
+                object obj = ResourceManager.GetObject("sf_shop2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sf_windos_15 {
+            get {
+                object obj = ResourceManager.GetObject("sf_windos_15", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sf_windos_15b {
+            get {
+                object obj = ResourceManager.GetObject("sf_windos_15b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sf_windos_7 {
+            get {
+                object obj = ResourceManager.GetObject("sf_windos_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sf_windos_8 {
+            get {
+                object obj = ResourceManager.GetObject("sf_windos_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sf_windos_9 {
+            get {
+                object obj = ResourceManager.GetObject("sf_windos_9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sfe_bigbuild2 {
+            get {
+                object obj = ResourceManager.GetObject("sfe_bigbuild2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sfe_pinkbuild1 {
+            get {
+                object obj = ResourceManager.GetObject("sfe_pinkbuild1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sfe_pinkbuild2 {
+            get {
+                object obj = ResourceManager.GetObject("sfe_pinkbuild2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6963,16 +8733,6 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap shitydoor1_256 {
-            get {
-                object obj = ResourceManager.GetObject("shitydoor1_256", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap shoot {
             get {
                 object obj = ResourceManager.GetObject("shoot", resourceCulture);
@@ -7003,46 +8763,6 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap shopdoor01_law {
-            get {
-                object obj = ResourceManager.GetObject("shopdoor01_law", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap shopdoor02_law {
-            get {
-                object obj = ResourceManager.GetObject("shopdoor02_law", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap shopdoor3_64 {
-            get {
-                object obj = ResourceManager.GetObject("shopdoor3_64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap shopgrating128H {
-            get {
-                object obj = ResourceManager.GetObject("shopgrating128H", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap shpnorm {
             get {
                 object obj = ResourceManager.GetObject("shpnorm", resourceCulture);
@@ -7056,6 +8776,16 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap shpwarp {
             get {
                 object obj = ResourceManager.GetObject("shpwarp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shuttersb {
+            get {
+                object obj = ResourceManager.GetObject("shuttersb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7113,9 +8843,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sjmhoodalldr {
+        internal static System.Drawing.Bitmap sjmhoodlawn41 {
             get {
-                object obj = ResourceManager.GetObject("sjmhoodalldr", resourceCulture);
+                object obj = ResourceManager.GetObject("sjmhoodlawn41", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7123,9 +8853,39 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sjmhoodoor1 {
+        internal static System.Drawing.Bitmap sjmhoodlawn42 {
             get {
-                object obj = ResourceManager.GetObject("sjmhoodoor1", resourceCulture);
+                object obj = ResourceManager.GetObject("sjmhoodlawn42", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sjmlahus28 {
+            get {
+                object obj = ResourceManager.GetObject("sjmlahus28", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sjmpostbar3 {
+            get {
+                object obj = ResourceManager.GetObject("sjmpostbar3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sjmstair {
+            get {
+                object obj = ResourceManager.GetObject("sjmstair", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7153,9 +8913,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sl_grngarage1 {
+        internal static System.Drawing.Bitmap sl_dtbuild02win1 {
             get {
-                object obj = ResourceManager.GetObject("sl_grngarage1", resourceCulture);
+                object obj = ResourceManager.GetObject("sl_dtbuild02win1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7163,9 +8923,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sl_presdoor01 {
+        internal static System.Drawing.Bitmap sl_dtrufrear2wall1 {
             get {
-                object obj = ResourceManager.GetObject("sl_presdoor01", resourceCulture);
+                object obj = ResourceManager.GetObject("sl_dtrufrear2wall1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7173,9 +8933,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sl_presdoor02 {
+        internal static System.Drawing.Bitmap sl_dtrufrear2win1 {
             get {
-                object obj = ResourceManager.GetObject("sl_presdoor02", resourceCulture);
+                object obj = ResourceManager.GetObject("sl_dtrufrear2win1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7183,9 +8943,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sl_prisongate1 {
+        internal static System.Drawing.Bitmap sl_dtrufrear2win2 {
             get {
-                object obj = ResourceManager.GetObject("sl_prisongate1", resourceCulture);
+                object obj = ResourceManager.GetObject("sl_dtrufrear2win2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7193,9 +8953,59 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sl_shopshttr1 {
+        internal static System.Drawing.Bitmap sl_dtrufrear2win3 {
             get {
-                object obj = ResourceManager.GetObject("sl_shopshttr1", resourceCulture);
+                object obj = ResourceManager.GetObject("sl_dtrufrear2win3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sl_fudstore1 {
+            get {
+                object obj = ResourceManager.GetObject("sl_fudstore1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sl_fudstore2 {
+            get {
+                object obj = ResourceManager.GetObject("sl_fudstore2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sl_lavicdtwall1 {
+            get {
+                object obj = ResourceManager.GetObject("sl_lavicdtwall1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sl_metalwalk {
+            get {
+                object obj = ResourceManager.GetObject("sl_metalwalk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sl_rustyrailing {
+            get {
+                object obj = ResourceManager.GetObject("sl_rustyrailing", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7206,6 +9016,16 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap sl_vicbrikwall01 {
             get {
                 object obj = ResourceManager.GetObject("sl_vicbrikwall01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sl_vicrfedge {
+            get {
+                object obj = ResourceManager.GetObject("sl_vicrfedge", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7233,9 +9053,69 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap slidingdoor01_128 {
+        internal static System.Drawing.Bitmap sl_vicwin01 {
             get {
-                object obj = ResourceManager.GetObject("slidingdoor01_128", resourceCulture);
+                object obj = ResourceManager.GetObject("sl_vicwin01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sl_vicwin02 {
+            get {
+                object obj = ResourceManager.GetObject("sl_vicwin02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sm_Agave_1 {
+            get {
+                object obj = ResourceManager.GetObject("sm_Agave_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sm_Agave_2 {
+            get {
+                object obj = ResourceManager.GetObject("sm_Agave_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sm_conc_hatch {
+            get {
+                object obj = ResourceManager.GetObject("sm_conc_hatch", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sm_des_bush1 {
+            get {
+                object obj = ResourceManager.GetObject("sm_des_bush1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap snpedtest1 {
+            get {
+                object obj = ResourceManager.GetObject("snpedtest1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7303,9 +9183,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sw_backdoor02 {
+        internal static System.Drawing.Bitmap stanwind_nt {
             get {
-                object obj = ResourceManager.GetObject("sw_backdoor02", resourceCulture);
+                object obj = ResourceManager.GetObject("stanwind_nt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7313,9 +9193,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sw_door03 {
+        internal static System.Drawing.Bitmap steel128 {
             get {
-                object obj = ResourceManager.GetObject("sw_door03", resourceCulture);
+                object obj = ResourceManager.GetObject("steel128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7323,9 +9203,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sw_door04 {
+        internal static System.Drawing.Bitmap steel256128 {
             get {
-                object obj = ResourceManager.GetObject("sw_door04", resourceCulture);
+                object obj = ResourceManager.GetObject("steel256128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7333,9 +9213,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sw_door05 {
+        internal static System.Drawing.Bitmap steel64 {
             get {
-                object obj = ResourceManager.GetObject("sw_door05", resourceCulture);
+                object obj = ResourceManager.GetObject("steel64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7343,9 +9223,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sw_door07 {
+        internal static System.Drawing.Bitmap stones256128 {
             get {
-                object obj = ResourceManager.GetObject("sw_door07", resourceCulture);
+                object obj = ResourceManager.GetObject("stones256128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7353,9 +9233,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sw_door08 {
+        internal static System.Drawing.Bitmap stormdrain2_nt {
             get {
-                object obj = ResourceManager.GetObject("sw_door08", resourceCulture);
+                object obj = ResourceManager.GetObject("stormdrain2_nt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7363,9 +9243,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sw_door09 {
+        internal static System.Drawing.Bitmap stormdrain5_nt {
             get {
-                object obj = ResourceManager.GetObject("sw_door09", resourceCulture);
+                object obj = ResourceManager.GetObject("stormdrain5_nt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7373,9 +9253,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sw_door10 {
+        internal static System.Drawing.Bitmap stormdrain7 {
             get {
-                object obj = ResourceManager.GetObject("sw_door10", resourceCulture);
+                object obj = ResourceManager.GetObject("stormdrain7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7383,9 +9263,69 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sw_door11 {
+        internal static System.Drawing.Bitmap studiowall4_law {
             get {
-                object obj = ResourceManager.GetObject("sw_door11", resourceCulture);
+                object obj = ResourceManager.GetObject("studiowall4_law", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stuffdirtcol {
+            get {
+                object obj = ResourceManager.GetObject("stuffdirtcol", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sunsetammu1 {
+            get {
+                object obj = ResourceManager.GetObject("sunsetammu1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sunsetammu2 {
+            get {
+                object obj = ResourceManager.GetObject("sunsetammu2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sunsetammu4 {
+            get {
+                object obj = ResourceManager.GetObject("sunsetammu4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap supasave_sfw {
+            get {
+                object obj = ResourceManager.GetObject("supasave_sfw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap supasave_wintemp {
+            get {
+                object obj = ResourceManager.GetObject("supasave_wintemp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7396,76 +9336,6 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap sw_door12 {
             get {
                 object obj = ResourceManager.GetObject("sw_door12", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap sw_door13 {
-            get {
-                object obj = ResourceManager.GetObject("sw_door13", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap sw_door14 {
-            get {
-                object obj = ResourceManager.GetObject("sw_door14", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap sw_door15 {
-            get {
-                object obj = ResourceManager.GetObject("sw_door15", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap sw_door16 {
-            get {
-                object obj = ResourceManager.GetObject("sw_door16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap sw_door17 {
-            get {
-                object obj = ResourceManager.GetObject("sw_door17", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap sw_door18 {
-            get {
-                object obj = ResourceManager.GetObject("sw_door18", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap sw_door19 {
-            get {
-                object obj = ResourceManager.GetObject("sw_door19", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7493,9 +9363,39 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sw_shutters1 {
+        internal static System.Drawing.Bitmap sw_shedwall02 {
             get {
-                object obj = ResourceManager.GetObject("sw_shutters1", resourceCulture);
+                object obj = ResourceManager.GetObject("sw_shedwall02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tar_1line256HV {
+            get {
+                object obj = ResourceManager.GetObject("Tar_1line256HV", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tardor2 {
+            get {
+                object obj = ResourceManager.GetObject("tardor2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tardor9 {
+            get {
+                object obj = ResourceManager.GetObject("tardor9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -7613,16 +9513,6 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap trail_door {
-            get {
-                object obj = ResourceManager.GetObject("trail_door", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap trees {
             get {
                 object obj = ResourceManager.GetObject("trees", resourceCulture);
@@ -7636,6 +9526,16 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap triang {
             get {
                 object obj = ResourceManager.GetObject("triang", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tuntest1las {
+            get {
+                object obj = ResourceManager.GetObject("tuntest1las", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8003,6 +9903,26 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Upt_Conc_floorClean {
+            get {
+                object obj = ResourceManager.GetObject("Upt_Conc_floorClean", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Upt_Fence_Mesh {
+            get {
+                object obj = ResourceManager.GetObject("Upt_Fence_Mesh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap vehicledash32 {
             get {
                 object obj = ResourceManager.GetObject("vehicledash32", resourceCulture);
@@ -8123,9 +10043,49 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap vengardoor01_SFW {
+        internal static System.Drawing.Bitmap vent01_64 {
             get {
-                object obj = ResourceManager.GetObject("vengardoor01_SFW", resourceCulture);
+                object obj = ResourceManager.GetObject("vent01_64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ventb128 {
+            get {
+                object obj = ResourceManager.GetObject("ventb128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ventb64 {
+            get {
+                object obj = ResourceManager.GetObject("ventb64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vgnburgwal4_128 {
+            get {
+                object obj = ResourceManager.GetObject("vgnburgwal4_128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vgnburgwal5_256 {
+            get {
+                object obj = ResourceManager.GetObject("vgnburgwal5_256", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8136,6 +10096,36 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap vgncorpdoor1_512 {
             get {
                 object obj = ResourceManager.GetObject("vgncorpdoor1_512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vgnmetaltopwal1_256 {
+            get {
+                object obj = ResourceManager.GetObject("vgnmetaltopwal1_256", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vgnpawnlng_256 {
+            get {
+                object obj = ResourceManager.GetObject("vgnpawnlng_256", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vgs_shopwall01_128 {
+            get {
+                object obj = ResourceManager.GetObject("vgs_shopwall01_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8173,9 +10163,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap warp {
+        internal static System.Drawing.Bitmap walltiles_128 {
             get {
-                object obj = ResourceManager.GetObject("warp", resourceCulture);
+                object obj = ResourceManager.GetObject("walltiles_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8183,9 +10173,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Was_scrpyd_door_dbl_grey {
+        internal static System.Drawing.Bitmap warp {
             get {
-                object obj = ResourceManager.GetObject("Was_scrpyd_door_dbl_grey", resourceCulture);
+                object obj = ResourceManager.GetObject("warp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8203,9 +10193,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Was_scrpyd_trailer_door {
+        internal static System.Drawing.Bitmap washapartwall1_256 {
             get {
-                object obj = ResourceManager.GetObject("Was_scrpyd_trailer_door", resourceCulture);
+                object obj = ResourceManager.GetObject("washapartwall1_256", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8223,9 +10213,39 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap waterclear2561 {
+            get {
+                object obj = ResourceManager.GetObject("waterclear2561", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap waterdirty256 {
+            get {
+                object obj = ResourceManager.GetObject("waterdirty256", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap waterwake {
             get {
                 object obj = ResourceManager.GetObject("waterwake", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap weewall256 {
+            get {
+                object obj = ResourceManager.GetObject("weewall256", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8333,6 +10353,16 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap wheel02_64 {
+            get {
+                object obj = ResourceManager.GetObject("wheel02_64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap white {
             get {
                 object obj = ResourceManager.GetObject("white", resourceCulture);
@@ -8363,9 +10393,69 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap wilsdoor_01_la {
+        internal static System.Drawing.Bitmap white3 {
             get {
-                object obj = ResourceManager.GetObject("wilsdoor_01_la", resourceCulture);
+                object obj = ResourceManager.GetObject("white3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap whitedecosfe1 {
+            get {
+                object obj = ResourceManager.GetObject("whitedecosfe1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap whitedecosfe2 {
+            get {
+                object obj = ResourceManager.GetObject("whitedecosfe2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap whitedecosfe3 {
+            get {
+                object obj = ResourceManager.GetObject("whitedecosfe3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap whitedecosfe4 {
+            get {
+                object obj = ResourceManager.GetObject("whitedecosfe4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wilswin01_la {
+            get {
+                object obj = ResourceManager.GetObject("wilswin01_la", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WIN_DESKTOP {
+            get {
+                object obj = ResourceManager.GetObject("WIN_DESKTOP", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8383,9 +10473,89 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap windoresidential256 {
+            get {
+                object obj = ResourceManager.GetObject("windoresidential256", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_airbigsign1 {
+            get {
+                object obj = ResourceManager.GetObject("ws_airbigsign1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_airbigsign2 {
+            get {
+                object obj = ResourceManager.GetObject("ws_airbigsign2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_aircarparksign1 {
+            get {
+                object obj = ResourceManager.GetObject("ws_aircarparksign1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_airpassage {
+            get {
+                object obj = ResourceManager.GetObject("ws_airpassage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_airportconc1 {
+            get {
+                object obj = ResourceManager.GetObject("ws_airportconc1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ws_airportdoors1 {
             get {
                 object obj = ResourceManager.GetObject("ws_airportdoors1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_airportwall1 {
+            get {
+                object obj = ResourceManager.GetObject("ws_airportwall1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_airportwall2 {
+            get {
+                object obj = ResourceManager.GetObject("ws_airportwall2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8403,6 +10573,76 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ws_airportwin3 {
+            get {
+                object obj = ResourceManager.GetObject("ws_airportwin3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_airpt_concrete {
+            get {
+                object obj = ResourceManager.GetObject("ws_airpt_concrete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_airwelcome1 {
+            get {
+                object obj = ResourceManager.GetObject("ws_airwelcome1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_alley_conc3 {
+            get {
+                object obj = ResourceManager.GetObject("ws_alley_conc3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_altz_wall10 {
+            get {
+                object obj = ResourceManager.GetObject("ws_altz_wall10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_altz_wall4 {
+            get {
+                object obj = ResourceManager.GetObject("ws_altz_wall4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_altz_wall5 {
+            get {
+                object obj = ResourceManager.GetObject("ws_altz_wall5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ws_altz_wall5_door {
             get {
                 object obj = ResourceManager.GetObject("ws_altz_wall5_door", resourceCulture);
@@ -8413,9 +10653,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_basheddoor1 {
+        internal static System.Drawing.Bitmap ws_altz_wall7 {
             get {
-                object obj = ResourceManager.GetObject("ws_basheddoor1", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_altz_wall7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8423,9 +10663,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_bigblackdoor {
+        internal static System.Drawing.Bitmap ws_asphalt {
             get {
-                object obj = ResourceManager.GetObject("ws_bigblackdoor", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_asphalt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8433,9 +10673,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_dampdoubledoor {
+        internal static System.Drawing.Bitmap ws_bluelino {
             get {
-                object obj = ResourceManager.GetObject("ws_dampdoubledoor", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_bluelino", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8443,9 +10683,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_doorframe {
+        internal static System.Drawing.Bitmap ws_boothpanel {
             get {
-                object obj = ResourceManager.GetObject("ws_doorframe", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_boothpanel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8453,9 +10693,179 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_doorfront {
+        internal static System.Drawing.Bitmap ws_bridgepavement2 {
             get {
-                object obj = ResourceManager.GetObject("ws_doorfront", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_bridgepavement2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_cargoshipdoor {
+            get {
+                object obj = ResourceManager.GetObject("ws_cargoshipdoor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_carpark1 {
+            get {
+                object obj = ResourceManager.GetObject("ws_carpark1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_carpark2 {
+            get {
+                object obj = ResourceManager.GetObject("ws_carpark2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_carpark3 {
+            get {
+                object obj = ResourceManager.GetObject("ws_carpark3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_carparkwall1 {
+            get {
+                object obj = ResourceManager.GetObject("ws_carparkwall1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_carparkwall2 {
+            get {
+                object obj = ResourceManager.GetObject("ws_carparkwall2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_castironwalk {
+            get {
+                object obj = ResourceManager.GetObject("ws_castironwalk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_controltowerwin1 {
+            get {
+                object obj = ResourceManager.GetObject("ws_controltowerwin1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_corr_2_plain {
+            get {
+                object obj = ResourceManager.GetObject("ws_corr_2_plain", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_corrugated1 {
+            get {
+                object obj = ResourceManager.GetObject("ws_corrugated1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_corrugated2 {
+            get {
+                object obj = ResourceManager.GetObject("ws_corrugated2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_corrugateddoor1 {
+            get {
+                object obj = ResourceManager.GetObject("ws_corrugateddoor1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_crashbarrier {
+            get {
+                object obj = ResourceManager.GetObject("ws_crashbarrier", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_crashbarrier2 {
+            get {
+                object obj = ResourceManager.GetObject("ws_crashbarrier2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_dflourmural {
+            get {
+                object obj = ResourceManager.GetObject("ws_dflourmural", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_dickgoblinmural {
+            get {
+                object obj = ResourceManager.GetObject("ws_dickgoblinmural", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_dom_departures {
+            get {
+                object obj = ResourceManager.GetObject("ws_dom_departures", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8473,16 +10883,6 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_doubledoor3 {
-            get {
-                object obj = ResourceManager.GetObject("ws_doubledoor3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap ws_doubledoor4 {
             get {
                 object obj = ResourceManager.GetObject("ws_doubledoor4", resourceCulture);
@@ -8493,9 +10893,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_garagedoor2_blue {
+        internal static System.Drawing.Bitmap ws_fireexit {
             get {
-                object obj = ResourceManager.GetObject("ws_garagedoor2_blue", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_fireexit", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8503,9 +10903,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_garagedoor2_green {
+        internal static System.Drawing.Bitmap ws_floortiles4 {
             get {
-                object obj = ResourceManager.GetObject("ws_garagedoor2_green", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_floortiles4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8513,9 +10913,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_garagedoor2_white {
+        internal static System.Drawing.Bitmap ws_fluorescent1 {
             get {
-                object obj = ResourceManager.GetObject("ws_garagedoor2_white", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_fluorescent1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8523,9 +10923,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_garagedoor2_yello {
+        internal static System.Drawing.Bitmap ws_fluorescent2 {
             get {
-                object obj = ResourceManager.GetObject("ws_garagedoor2_yello", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_fluorescent2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8533,9 +10933,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_garagedoor3_green {
+        internal static System.Drawing.Bitmap ws_greymetal {
             get {
-                object obj = ResourceManager.GetObject("ws_garagedoor3_green", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_greymetal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8543,39 +10943,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_garagedoor3_pink {
+        internal static System.Drawing.Bitmap ws_griddyfence {
             get {
-                object obj = ResourceManager.GetObject("ws_garagedoor3_pink", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap ws_garagedoor3_white {
-            get {
-                object obj = ResourceManager.GetObject("ws_garagedoor3_white", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap ws_garagedoor4_peach {
-            get {
-                object obj = ResourceManager.GetObject("ws_garagedoor4_peach", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap ws_glassnbrassdoor {
-            get {
-                object obj = ResourceManager.GetObject("ws_glassnbrassdoor", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_griddyfence", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8593,9 +10963,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_hangardoor {
+        internal static System.Drawing.Bitmap ws_leccyfncesign {
             get {
-                object obj = ResourceManager.GetObject("ws_hangardoor", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_leccyfncesign", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8603,9 +10973,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_painted_doors1 {
+        internal static System.Drawing.Bitmap ws_leccyfncetop {
             get {
-                object obj = ResourceManager.GetObject("ws_painted_doors1", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_leccyfncetop", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8613,9 +10983,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_painted_doors2 {
+        internal static System.Drawing.Bitmap ws_lightlens {
             get {
-                object obj = ResourceManager.GetObject("ws_painted_doors2", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_lightlens", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8623,9 +10993,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_painted_doors3 {
+        internal static System.Drawing.Bitmap ws_metalpanel1 {
             get {
-                object obj = ResourceManager.GetObject("ws_painted_doors3", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_metalpanel1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8633,9 +11003,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_reinforcedbutwonky {
+        internal static System.Drawing.Bitmap ws_officewins_1 {
             get {
-                object obj = ResourceManager.GetObject("ws_reinforcedbutwonky", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_officewins_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8643,9 +11013,69 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_rollerdoor_blue {
+        internal static System.Drawing.Bitmap ws_oldpainted {
             get {
-                object obj = ResourceManager.GetObject("ws_rollerdoor_blue", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_oldpainted", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_oldpainted2rusty {
+            get {
+                object obj = ResourceManager.GetObject("ws_oldpainted2rusty", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_oldwarehouse10a {
+            get {
+                object obj = ResourceManager.GetObject("ws_oldwarehouse10a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_oldwarehouse10c {
+            get {
+                object obj = ResourceManager.GetObject("ws_oldwarehouse10c", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_oldwarehouse10d {
+            get {
+                object obj = ResourceManager.GetObject("ws_oldwarehouse10d", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_railing1 {
+            get {
+                object obj = ResourceManager.GetObject("ws_railing1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_roadarrow1 {
+            get {
+                object obj = ResourceManager.GetObject("ws_roadarrow1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8663,9 +11093,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_rollerdoor_silver {
+        internal static System.Drawing.Bitmap ws_rooftarmac1 {
             get {
-                object obj = ResourceManager.GetObject("ws_rollerdoor_silver", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_rooftarmac1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8673,9 +11103,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_rollerdoor_silver2 {
+        internal static System.Drawing.Bitmap ws_rooftarmac2 {
             get {
-                object obj = ResourceManager.GetObject("ws_rollerdoor_silver2", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_rooftarmac2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8683,9 +11113,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_security_door {
+        internal static System.Drawing.Bitmap ws_rotten_concrete1 {
             get {
-                object obj = ResourceManager.GetObject("ws_security_door", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_rotten_concrete1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8693,9 +11123,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_wood_doors1 {
+        internal static System.Drawing.Bitmap ws_RShaul_dirt {
             get {
-                object obj = ResourceManager.GetObject("ws_wood_doors1", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_RShaul_dirt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8703,9 +11133,169 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ws_wood_doors2 {
+        internal static System.Drawing.Bitmap ws_runwaytarmac {
             get {
-                object obj = ResourceManager.GetObject("ws_wood_doors2", resourceCulture);
+                object obj = ResourceManager.GetObject("ws_runwaytarmac", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_sandstone1 {
+            get {
+                object obj = ResourceManager.GetObject("ws_sandstone1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_shipmetal5 {
+            get {
+                object obj = ResourceManager.GetObject("ws_shipmetal5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_skidmarks {
+            get {
+                object obj = ResourceManager.GetObject("ws_skidmarks", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_stationfloor {
+            get {
+                object obj = ResourceManager.GetObject("ws_stationfloor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_stationgirder1 {
+            get {
+                object obj = ResourceManager.GetObject("ws_stationgirder1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_trainstationwin1 {
+            get {
+                object obj = ResourceManager.GetObject("ws_trainstationwin1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_trans_concr {
+            get {
+                object obj = ResourceManager.GetObject("ws_trans_concr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_white_wall1 {
+            get {
+                object obj = ResourceManager.GetObject("ws_white_wall1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_whiteplaster_btm {
+            get {
+                object obj = ResourceManager.GetObject("ws_whiteplaster_btm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_whiteplaster_top {
+            get {
+                object obj = ResourceManager.GetObject("ws_whiteplaster_top", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_whitestripe {
+            get {
+                object obj = ResourceManager.GetObject("ws_whitestripe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_whitewall2_bottom {
+            get {
+                object obj = ResourceManager.GetObject("ws_whitewall2_bottom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_whitewall2_top {
+            get {
+                object obj = ResourceManager.GetObject("ws_whitewall2_top", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_yelloscaff {
+            get {
+                object obj = ResourceManager.GetObject("ws_yelloscaff", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ws_yellowline {
+            get {
+                object obj = ResourceManager.GetObject("ws_yellowline", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wtmetal3 {
+            get {
+                object obj = ResourceManager.GetObject("wtmetal3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -8716,6 +11306,26 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap xvehicleenv128 {
             get {
                 object obj = ResourceManager.GetObject("xvehicleenv128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap yellow {
+            get {
+                object obj = ResourceManager.GetObject("yellow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap yellowscum64 {
+            get {
+                object obj = ResourceManager.GetObject("yellowscum64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
