@@ -42,7 +42,6 @@ namespace VisualTexture_v2.Sections
             switch (listBox1.FindString(listBox1.SelectedItem.ToString()))
             {
                 case 0: //Buildings
-                    panel3.Show();
                     tPic_1.Image = VisualTexture_v2.Properties.Resources.aarprt5LAS;
                     tPic_2.Image = VisualTexture_v2.Properties.Resources.ballyledge01_128;
                     tPic_3.Image = VisualTexture_v2.Properties.Resources.ballywindw01_128;
@@ -75,11 +74,15 @@ namespace VisualTexture_v2.Sections
                     tPic_30.Image = VisualTexture_v2.Properties.Resources.whitedecosfe2;
                     tPic_31.Image = VisualTexture_v2.Properties.Resources.ws_dflourmural;
                     tPic_32.Image = VisualTexture_v2.Properties.Resources.ws_dickgoblinmural;
-
+                    LB1();
                     break;
 
                 case 1: //Ceiling
-                    panel3.Hide();
+                    tPic_1.Image = VisualTexture_v2.Properties.Resources.roof09L256;
+                    tPic_2.Image = VisualTexture_v2.Properties.Resources.sanpedock8;
+                    tPic_3.Image = VisualTexture_v2.Properties.Resources.ws_corrugated1;
+                    tPic_4.Image = VisualTexture_v2.Properties.Resources.ws_corrugated2;
+                    LB2();
 
                     break;
 
@@ -128,166 +131,8 @@ namespace VisualTexture_v2.Sections
                     panel3.Hide();
 
                     break;
-
-            /*    case 1:
-                    panel3.Hide();
-            break;
-
-                case 1:
-                    panel3.Hide();
-
-                    break;
-
-                case 1:
-                    panel3.Hide();
-
-                    break;
-
-                case 1: 
-                    panel3.Hide();
-
-                    break;
-
-                case 1:
-                    panel3.Hide();
-
-                    break;
-
-                case 1: 
-                    panel3.Hide();
-
-                    break;
-
-                case 1: 
-                    panel3.Hide();
-
-                    break;
-
-                case 1:
-                    panel3.Hide();
-
-                    break;
-
-                case 2:
-                    panel3.Hide();
-
-                    break;
-
-                case 2: 
-                    panel3.Hide();
-
-                    break;
-
-                case 2: 
-                    panel3.Hide();
-
-                    break;*/
-
             }
         }
-
-
-        private void tPic_1_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"a51_floorpanel1\", 0xFFFFFFFF);";
-        }
-        private void tPic_2_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"a51_panel2\", 0xFFFFFFFF);";
-        }
-        private void tPic_3_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"a51_panels1\", 0xFFFFFFFF);";
-        }
-        private void tPic_4_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"a51_strips1\", 0xFFFFFFFF);";
-        }
-        private void tPic_5_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"a51_vent1\", 0xFFFFFFFF);";
-        }
-        private void tPic_6_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"a51_wall1\", 0xFFFFFFFF);";
-        }
-        private void tPic_7_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 9514,\"711_sfw\",\"brick\", 0xFFFFFFFF);";
-        }
-        private void tPic_8_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"carparkwall12_256\", 0xFFFFFFFF);";
-        }
-        private void tPic_9_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"concretegroundl1_256\", 0xFFFFFFFF);";
-        }
-        private void tPic_10_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"concretewall22_256\", 0xFFFFFFFF);";
-        }
-        private void tPic_11_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"concreteyellow256_copy\", 0xFFFFFFFF);";
-        }
-        private void tPic_12_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"des_factower\", 0xFFFFFFFF);";
-        }
-        private void tPic_13_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 10101,\"2notherbuildsfe\",\"ferry_build14\", 0xFFFFFFFF);";
-        }
-        private void tPic_14_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"Metalox64\", 0xFFFFFFFF);";
-        }
-        private void tPic_15_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 9514,\"711_sfw\",\"pcut_bot_law\", 0xFFFFFFFF);";
-        }
-        private void tPic_16_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 9514,\"711_sfw\",\"rebrckwall_128\", 0xFFFFFFFF);";
-        }
-        private void tPic_17_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 16640,\"a51\",\"redmetal\", 0xFFFFFFFF);";
-        }
-        private void tPic_18_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 9514,\"711_sfw\",\"shingles2\", 0xFFFFFFFF);";
-        }
-        private void tPic_19_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 10101,\"2notherbuildsfe\",\"sl_vicbrikwall01\", 0xFFFFFFFF);";
-        }
-        private void tPic_20_Click(object sender, EventArgs e)
-        {
-            InfoTextBox.Visible = true;
-            InfoTextBox.Text = "SetDynamicObjectMaterial(Var, 0, 10101,\"2notherbuildsfe\",\"sl_vicwall01\", 0xFFFFFFFF);";
-        }
-
 
         private void panel1_MouseDown(object sender, System.Windows.Forms.MouseEventArgs e)
         {
@@ -347,5 +192,124 @@ namespace VisualTexture_v2.Sections
             Application.Exit();
         }
 
+        public void LB1()
+        {
+            panel3.Show();
+            //============
+            tPic_1.Show();
+            tPic_2.Show();
+            tPic_3.Show();
+            tPic_4.Show();
+            tPic_5.Show();
+            tPic_6.Show();
+            tPic_7.Show();
+            tPic_8.Show();
+            tPic_9.Show();
+            tPic_10.Show();
+            tPic_11.Show();
+            tPic_12.Show();
+            tPic_13.Show();
+            tPic_14.Show();
+            tPic_15.Show();
+            tPic_16.Show();
+            tPic_17.Show();
+            tPic_18.Show();
+            tPic_19.Show();
+            tPic_20.Show();
+            tPic_21.Show();
+            tPic_22.Show();
+            tPic_23.Show();
+            tPic_24.Show();
+            tPic_25.Show();
+            tPic_26.Show();
+            tPic_27.Show();
+            tPic_28.Show();
+            tPic_29.Show();
+            tPic_30.Show();
+            tPic_31.Show();
+            tPic_32.Show();
+            //Display PictureBox
+            tPic_33.Hide();
+            tPic_34.Hide();
+            tPic_35.Hide();
+            tPic_36.Hide();
+            tPic_37.Hide();
+            tPic_38.Hide();
+            tPic_39.Hide();
+            tPic_40.Hide();
+            tPic_41.Hide();
+            tPic_42.Hide();
+            tPic_43.Hide();
+            tPic_44.Hide();
+            tPic_45.Hide();
+            tPic_46.Hide();
+            tPic_47.Hide();
+            tPic_48.Hide();
+            tPic_49.Hide();
+            tPic_50.Hide();
+            tPic_51.Hide();
+            tPic_52.Hide();
+        }
+        public void LB2()
+        {
+            //Show PBox
+            panel3.Show();
+            tPic_1.Show();
+            tPic_2.Show();
+            tPic_3.Show();
+            tPic_4.Show();
+            //Hide PBox
+            tPic_5.Hide();
+            tPic_6.Hide();
+            tPic_7.Hide();
+            tPic_8.Hide();
+            tPic_9.Hide();
+            tPic_10.Hide();
+            tPic_11.Hide();
+            tPic_12.Hide();
+            tPic_13.Hide();
+            tPic_14.Hide();
+            tPic_15.Hide();
+            tPic_16.Hide();
+            tPic_17.Hide();
+            tPic_18.Hide();
+            tPic_19.Hide();
+            tPic_20.Hide();
+            tPic_21.Hide();
+            tPic_22.Hide();
+            tPic_23.Hide();
+            tPic_24.Hide();
+            tPic_25.Hide();
+            tPic_26.Hide();
+            tPic_27.Hide();
+            tPic_28.Hide();
+            tPic_29.Hide();
+            tPic_30.Hide();
+            tPic_31.Hide();
+            tPic_32.Hide();
+            tPic_33.Hide();
+            tPic_34.Hide();
+            tPic_35.Hide();
+            tPic_36.Hide();
+            tPic_37.Hide();
+            tPic_38.Hide();
+            tPic_39.Hide();
+            tPic_40.Hide();
+            tPic_41.Hide();
+            tPic_42.Hide();
+            tPic_43.Hide();
+            tPic_44.Hide();
+            tPic_45.Hide();
+            tPic_46.Hide();
+            tPic_47.Hide();
+            tPic_48.Hide();
+            tPic_49.Hide();
+            tPic_50.Hide();
+            tPic_51.Hide();
+            tPic_52.Hide();
+        }
+
     }
 }
+
+
