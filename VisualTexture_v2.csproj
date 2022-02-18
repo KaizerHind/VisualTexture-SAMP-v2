@@ -240,7 +240,7 @@
     <None Include="Resources\Textures\Ceiling\ws_corrugated1.jpg" />
     <None Include="Resources\Textures\Ceiling\ws_corrugated2.jpg" />
     <None Include="Resources\Textures\Colors\black64.jpg" />
-    <None Include="Resources\Textures\Colors\concreteyellow256 copy.jpg" />
+    <None Include="Resources\Textures\Colors\concreteyellow256.jpg" />
     <None Include="Resources\Textures\Colors\dirtywhite.jpg" />
     <None Include="Resources\Textures\Colors\easykerb.jpg" />
     <None Include="Resources\Textures\Colors\white.jpg" />
