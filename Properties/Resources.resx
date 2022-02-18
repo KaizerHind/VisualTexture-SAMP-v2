@@ -2527,9 +2527,6 @@
   <data name="concretewall22_256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Textures\Walls\concretewall22_256.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="concreteyellow256_copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Textures\Colors\concreteyellow256 copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="conc_wall_stripd2128h" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Textures\Walls\conc_wall_stripd2128h.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -3522,5 +3519,8 @@
   </data>
   <data name="yellowscum64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Textures\Colors\yellowscum64.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="concreteyellow256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Textures\Colors\concreteyellow256.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
