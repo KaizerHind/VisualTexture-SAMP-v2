@@ -17,7 +17,7 @@
 
 # `Version 1.2.1` l # Changes released: 07 - June - 2021
 - [x]  *The VSprites tool was added. (By Lorenc_)*
-- [x]  *A new method to display animations was successfully configured. (Cef + WebPage)*
+- [x]  *A new method to display animations was successfully configured. (Cef + WebPage + Three.js)*
 - [x]  *Some text boxes and other data were changed and added.*
 - [x]  *Now when you click on a Texture, it will show its PawnInfo. (Before it showed the information when clicking on RadioButtons, therefore that option was replaced)*
 #
