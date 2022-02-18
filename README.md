@@ -1,12 +1,19 @@
 
 
+
 # VisualTexture v2
 - Multi-tool San Andreas MultiPlayer l Pre-relaunch and better update of the v1 tool:
 - src old: https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP)
 - Complement: https://github.com/KaizerHind/PreviewAnims
-- **Is important download in your NuGet Packages inside of VisualStudio the following elements ['cef.redist.x64, cef.redist.x86, CefSharp.Common y CefSharp.CWinForms'](https://youtu.be/fOzBVy-sDbM)**
+- **Is important download in your NuGet Packages inside of VisualStudio the following elements ['cef.redist.x64, cef.redist.x86, CefSharp.Common y CefSharp.CWinForms'](https://youtu.be/fOzBVy-sDbM) and install the reference 'Bunifu' that is compressed in the project.**
 
 ![enter image description here](https://media.discordapp.net/attachments/559900721252925458/848858048557744158/unknown.png)
+
+# `Version 1.2.1` l # Changes released: 18 - Feb - 2022
+ - [x]  *Fixed a bug which did not allow displaying texture information for each option in the **Listbox**.*
+ - [x] *New textures added. **(This is being done in every small update constantly)***
+ - [ ] Work is underway on an alternative option made in **OpenGL** to replace the Inline Animation Viewer with one built into the software.
+ - [ ] Somen't very ethical features will be superseded over time.
 
 # `Version 1.2.1` l # Changes released: 07 - June - 2021
 - [x]  *The VSprites tool was added. (By Lorenc_)*
