@@ -33,6 +33,7 @@ namespace VisualTexture_v2.Sections
                 "11.- Walls",
                 "12.- Windows"
             });
+
             listBox1.Visible = true;
             listBox2.Visible = false;
             InfoTextBox1.Visible = false;
@@ -49,7 +50,9 @@ namespace VisualTexture_v2.Sections
                     DisplayShow1();
                     InfoTextBox1.Visible = true;
                     InfoTextBox2.Visible = false;
-                    
+                    InfoTextBox3.Visible = false;
+                    Clear();
+
                     tPic_1.Image = VisualTexture_v2.Properties.Resources.aarprt5LAS;
                     tPic_2.Image = VisualTexture_v2.Properties.Resources.ballyledge01_128;
                     tPic_3.Image = VisualTexture_v2.Properties.Resources.ballywindw01_128;
@@ -88,6 +91,8 @@ namespace VisualTexture_v2.Sections
                     DisplayShow2();
                     InfoTextBox1.Visible = false;
                     InfoTextBox2.Visible = true;
+                    InfoTextBox3.Visible = false;
+                    Clear();
 
                     tPic_1.Image = VisualTexture_v2.Properties.Resources.roof09L256;
                     tPic_2.Image = VisualTexture_v2.Properties.Resources.sanpedock8;
@@ -100,6 +105,8 @@ namespace VisualTexture_v2.Sections
                     InfoTextBox1.Visible = false;
                     InfoTextBox2.Visible = false;
                     InfoTextBox3.Visible = true;
+                    Clear();
+
                     tPic_1.Image = VisualTexture_v2.Properties.Resources.black64;
                     tPic_2.Image = VisualTexture_v2.Properties.Resources.concreteyellow256;
                     tPic_3.Image = VisualTexture_v2.Properties.Resources.dirtywhite;
@@ -212,11 +219,15 @@ namespace VisualTexture_v2.Sections
             Application.Exit();
         }
 
-        /*public void Clear()
+        public void Clear()
         {
             InfoTextBox1.SelectAll();
             InfoTextBox1.Text = "";
-        }*/
+            InfoTextBox2.SelectAll();
+            InfoTextBox2.Text = "";
+            InfoTextBox3.SelectAll();
+            InfoTextBox3.Text = "";
+        }
 
         public void DisplayShow1()
         {
@@ -392,6 +403,7 @@ namespace VisualTexture_v2.Sections
             tPic_51.Hide();
             tPic_52.Hide();
         }
+
 
         //InfoTextBox3.Text = "SetDynamicObjectMaterial(Var, 0, Here,\"Here\",\"Here\", 0xFFFFFFFF";
         private void tPic_1_Click(object sender, EventArgs e)

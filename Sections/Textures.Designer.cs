@@ -39,8 +39,6 @@
             this.btnAnimations = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnHome = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.InfoTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.InfoTextBox2 = new System.Windows.Forms.RichTextBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.btnClose = new Bunifu.Framework.UI.BunifuFlatButton();
             this.listBox1 = new System.Windows.Forms.ListBox();
@@ -98,6 +96,8 @@
             this.tPic_2 = new System.Windows.Forms.PictureBox();
             this.tPic_1 = new System.Windows.Forms.PictureBox();
             this.InfoTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.InfoTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.InfoTextBox3 = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -379,34 +379,16 @@
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.InfoTextBox3);
             this.panel2.Controls.Add(this.InfoTextBox2);
+            this.panel2.Controls.Add(this.InfoTextBox1);
             this.panel2.Controls.Add(this.listBox2);
             this.panel2.Controls.Add(this.btnClose);
             this.panel2.Controls.Add(this.listBox1);
             this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.InfoTextBox1);
             this.panel2.Location = new System.Drawing.Point(169, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(680, 449);
             this.panel2.TabIndex = 5;
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
-            // 
-            // InfoTextBox3
-            // 
-            this.InfoTextBox3.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InfoTextBox3.Location = new System.Drawing.Point(154, 395);
-            this.InfoTextBox3.Name = "InfoTextBox3";
-            this.InfoTextBox3.Size = new System.Drawing.Size(491, 42);
-            this.InfoTextBox3.TabIndex = 9;
-            this.InfoTextBox3.Text = "";
-            // 
-            // InfoTextBox2
-            // 
-            this.InfoTextBox2.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InfoTextBox2.Location = new System.Drawing.Point(154, 395);
-            this.InfoTextBox2.Name = "InfoTextBox2";
-            this.InfoTextBox2.Size = new System.Drawing.Size(491, 42);
-            this.InfoTextBox2.TabIndex = 8;
-            this.InfoTextBox2.Text = "";
             // 
             // listBox2
             // 
@@ -1141,12 +1123,27 @@
             // 
             // InfoTextBox1
             // 
-            this.InfoTextBox1.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InfoTextBox1.Location = new System.Drawing.Point(154, 395);
+            this.InfoTextBox1.Location = new System.Drawing.Point(154, 393);
             this.InfoTextBox1.Name = "InfoTextBox1";
             this.InfoTextBox1.Size = new System.Drawing.Size(491, 42);
-            this.InfoTextBox1.TabIndex = 3;
+            this.InfoTextBox1.TabIndex = 8;
             this.InfoTextBox1.Text = "";
+            // 
+            // InfoTextBox2
+            // 
+            this.InfoTextBox2.Location = new System.Drawing.Point(154, 393);
+            this.InfoTextBox2.Name = "InfoTextBox2";
+            this.InfoTextBox2.Size = new System.Drawing.Size(491, 42);
+            this.InfoTextBox2.TabIndex = 9;
+            this.InfoTextBox2.Text = "";
+            // 
+            // InfoTextBox3
+            // 
+            this.InfoTextBox3.Location = new System.Drawing.Point(154, 393);
+            this.InfoTextBox3.Name = "InfoTextBox3";
+            this.InfoTextBox3.Size = new System.Drawing.Size(491, 42);
+            this.InfoTextBox3.TabIndex = 10;
+            this.InfoTextBox3.Text = "";
             // 
             // Textures
             // 
@@ -1229,7 +1226,6 @@
         private Bunifu.Framework.UI.BunifuFlatButton btnAnimations;
         private Bunifu.Framework.UI.BunifuFlatButton btnHome;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.RichTextBox InfoTextBox1;
         private Bunifu.Framework.UI.BunifuFlatButton btnClose;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox tPic_1;
@@ -1289,7 +1285,8 @@
         private System.Windows.Forms.PictureBox tPic_23;
         private System.Windows.Forms.PictureBox tPic_22;
         private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.RichTextBox InfoTextBox2;
+        private System.Windows.Forms.RichTextBox InfoTextBox1;
         private System.Windows.Forms.RichTextBox InfoTextBox3;
+        private System.Windows.Forms.RichTextBox InfoTextBox2;
     }
 }
