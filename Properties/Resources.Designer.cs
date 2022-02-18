@@ -3593,9 +3593,9 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap concreteyellow256_copy {
+        internal static System.Drawing.Bitmap concreteyellow256 {
             get {
-                object obj = ResourceManager.GetObject("concreteyellow256_copy", resourceCulture);
+                object obj = ResourceManager.GetObject("concreteyellow256", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
