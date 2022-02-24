@@ -404,7 +404,6 @@ namespace VisualTexture_v2.Sections
             tPic_52.Hide();
         }
 
-
         //InfoTextBox3.Text = "SetDynamicObjectMaterial(Var, 0, Here,\"Here\",\"Here\", 0xFFFFFFFF";
         private void tPic_1_Click(object sender, EventArgs e)
         {

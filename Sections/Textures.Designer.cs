@@ -39,6 +39,9 @@
             this.btnAnimations = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnHome = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.InfoTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.InfoTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.InfoTextBox1 = new System.Windows.Forms.RichTextBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.btnClose = new Bunifu.Framework.UI.BunifuFlatButton();
             this.listBox1 = new System.Windows.Forms.ListBox();
@@ -95,9 +98,6 @@
             this.tPic_3 = new System.Windows.Forms.PictureBox();
             this.tPic_2 = new System.Windows.Forms.PictureBox();
             this.tPic_1 = new System.Windows.Forms.PictureBox();
-            this.InfoTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.InfoTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.InfoTextBox3 = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -389,6 +389,30 @@
             this.panel2.Size = new System.Drawing.Size(680, 449);
             this.panel2.TabIndex = 5;
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
+            // 
+            // InfoTextBox3
+            // 
+            this.InfoTextBox3.Location = new System.Drawing.Point(154, 393);
+            this.InfoTextBox3.Name = "InfoTextBox3";
+            this.InfoTextBox3.Size = new System.Drawing.Size(491, 42);
+            this.InfoTextBox3.TabIndex = 10;
+            this.InfoTextBox3.Text = "";
+            // 
+            // InfoTextBox2
+            // 
+            this.InfoTextBox2.Location = new System.Drawing.Point(154, 393);
+            this.InfoTextBox2.Name = "InfoTextBox2";
+            this.InfoTextBox2.Size = new System.Drawing.Size(491, 42);
+            this.InfoTextBox2.TabIndex = 9;
+            this.InfoTextBox2.Text = "";
+            // 
+            // InfoTextBox1
+            // 
+            this.InfoTextBox1.Location = new System.Drawing.Point(154, 393);
+            this.InfoTextBox1.Name = "InfoTextBox1";
+            this.InfoTextBox1.Size = new System.Drawing.Size(491, 42);
+            this.InfoTextBox1.TabIndex = 8;
+            this.InfoTextBox1.Text = "";
             // 
             // listBox2
             // 
@@ -1120,30 +1144,6 @@
             this.tPic_1.TabIndex = 0;
             this.tPic_1.TabStop = false;
             this.tPic_1.Click += new System.EventHandler(this.tPic_1_Click);
-            // 
-            // InfoTextBox1
-            // 
-            this.InfoTextBox1.Location = new System.Drawing.Point(154, 393);
-            this.InfoTextBox1.Name = "InfoTextBox1";
-            this.InfoTextBox1.Size = new System.Drawing.Size(491, 42);
-            this.InfoTextBox1.TabIndex = 8;
-            this.InfoTextBox1.Text = "";
-            // 
-            // InfoTextBox2
-            // 
-            this.InfoTextBox2.Location = new System.Drawing.Point(154, 393);
-            this.InfoTextBox2.Name = "InfoTextBox2";
-            this.InfoTextBox2.Size = new System.Drawing.Size(491, 42);
-            this.InfoTextBox2.TabIndex = 9;
-            this.InfoTextBox2.Text = "";
-            // 
-            // InfoTextBox3
-            // 
-            this.InfoTextBox3.Location = new System.Drawing.Point(154, 393);
-            this.InfoTextBox3.Name = "InfoTextBox3";
-            this.InfoTextBox3.Size = new System.Drawing.Size(491, 42);
-            this.InfoTextBox3.TabIndex = 10;
-            this.InfoTextBox3.Text = "";
             // 
             // Textures
             // 
