@@ -30,6 +30,7 @@ ___
 # Updates:
 # `Version 1.2.1` l # Changes released: 21 - Nov - 2022 
 - [x]  *The files were fixed, because they could not be loaded in **Visual Studio** correctly.*
+- [x]  *Now the animation viewer is enabled, it is linked to an instance through the web.*
 ##
 # `Version 1.2.1` l # Changes released: 18 - Feb - 2022 
  - [x]  *Fixed a bug which did not allow displaying texture information for each option in the **Listbox**.*
