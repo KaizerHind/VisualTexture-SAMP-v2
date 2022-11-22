@@ -6,9 +6,11 @@ VisualTexture is a Multi-tool which i created a couple of years ago, which has t
 This tool allows you to `generate hexcolor's`, `view samp textures`, `animations`, `sprites` and later possibly a couple of other things. The animations section has an instance which is connected to the web platform to view these animations, since for the moment the idea is to try to reproduce animations within the software itself, but so far it is just an idea.
 
 	- Related projects:
-
-- Source Old:
 [![Build Process](https://i.imgur.com/KZYyFtk.png)](https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP)  
+	- Source Code Old.
+[
+![enter image description here](https://i.imgur.com/Abel0Hl.png)
+](https://github.com/KaizerHind/PreviewAnims)
 
 
 - **Note: Is important download in your NuGet Packages inside of VisualStudio the following elements ['cef.redist.x64, cef.redist.x86, CefSharp.Common y CefSharp.CWinForms'](https://www.mediafire.com/file/w64043xcnqmar42/packages.rar/file) and install the reference 'Bunifu' that is compressed in the project.**
