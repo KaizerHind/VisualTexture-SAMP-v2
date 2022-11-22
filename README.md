@@ -5,7 +5,7 @@
 - Multi-tool San Andreas MultiPlayer l Pre-relaunch and better update of the v1 tool:
 - src old: https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP)
 - Complement: https://github.com/KaizerHind/PreviewAnims
-- **Is important download in your NuGet Packages inside of VisualStudio the following elements ['cef.redist.x64, cef.redist.x86, CefSharp.Common y CefSharp.CWinForms'](https://youtu.be/fOzBVy-sDbM) and install the reference 'Bunifu' that is compressed in the project.**
+- **Is important download in your NuGet Packages inside of VisualStudio the following elements ['cef.redist.x64, cef.redist.x86, CefSharp.Common y CefSharp.CWinForms'](https://www.mediafire.com/file/w64043xcnqmar42/packages.rar/file) and install the reference 'Bunifu' that is compressed in the project.**
 
 ![enter image description here](https://media.discordapp.net/attachments/559900721252925458/848858048557744158/unknown.png)
 
