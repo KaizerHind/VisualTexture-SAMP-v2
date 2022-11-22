@@ -1,26 +1,39 @@
 
+#[](https://emojiart.org/)
 
-
-# VisualTexture v2
-- Multi-tool San Andreas MultiPlayer l Pre-relaunch and better update of the v1 tool:
-- src old: https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP)
-- Complement: https://github.com/KaizerHind/PreviewAnims
-- **Is important download in your NuGet Packages inside of VisualStudio the following elements ['cef.redist.x64, cef.redist.x86, CefSharp.Common y CefSharp.CWinForms'](https://www.mediafire.com/file/w64043xcnqmar42/packages.rar/file) and install the reference 'Bunifu' that is compressed in the project.**
-
+## 💾 - VisualTexture v2
 ![enter image description here](https://media.discordapp.net/attachments/559900721252925458/848858048557744158/unknown.png)
 
-# `Version 1.2.1` l # Changes released: 18 - Feb - 2022
+VisualTexture is a Multi-tool which i created a couple of years ago, which has the purpose of displaying some information about sa-mp, basically it is a kind of Wiki in Software version.
+
+This tool allows you to `generate hexcolor's`, `view samp textures`, `animations`, `sprites` and later possibly a couple of other things. The animations section has an instance which is connected to the web platform to view these animations, since for the moment the idea is to try to reproduce animations within the software itself, but so far it is just an idea.
+
+	- Related projects:
+
+- Source Old:
+[![Build Process](https://i.imgur.com/KZYyFtk.png)](https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP)  
+- Extension Web: [
+![enter image description here](https://i.imgur.com/Abel0Hl.png)
+](https://github.com/KaizerHind/PreviewAnims)
+
+
+- **Note: Is important download in your NuGet Packages inside of VisualStudio the following elements ['cef.redist.x64, cef.redist.x86, CefSharp.Common y CefSharp.CWinForms'](https://www.mediafire.com/file/w64043xcnqmar42/packages.rar/file) and install the reference 'Bunifu' that is compressed in the project.**
+##
+# `Version 1.2.1` l # Changes released: 21 - Nov - 2022 
+- [x]  *The files were fixed, because they could not be loaded in **Visual Studio** correctly.*
+##
+# `Version 1.2.1` l # Changes released: 18 - Feb - 2022 
  - [x]  *Fixed a bug which did not allow displaying texture information for each option in the **Listbox**.*
  - [x] *New textures added. **(This is being done in every small update constantly)***
  - [ ] Work is underway on an alternative option made in **OpenGL** to replace the Inline Animation Viewer with one built into the software.
  - [ ] Somen't very ethical features will be superseded over time.
-
+##
 # `Version 1.2.1` l # Changes released: 07 - June - 2021
 - [x]  *The VSprites tool was added. (By Lorenc_)*
 - [x]  *A new method to display animations was successfully configured. (Cef + WebPage + Three.js)*
 - [x]  *Some text boxes and other data were changed and added.*
 - [x]  *Now when you click on a Texture, it will show its PawnInfo. (Before it showed the information when clicking on RadioButtons, therefore that option was replaced)*
-#
+##
 # `Version 1.2.1` l # Changes released: 30 - May - 2021
 
 - [x]  *The way to choose and view the information of the textures was modified.*
@@ -28,19 +41,19 @@
 - [x]  *Resource content was added. (1,5%)*
 - [x]  The ColorPicker tool created by **[Zume](https://github.com/Zume-Zero)** was added.
 - [x]  Made UI fixes related to the up and down tool.
-
+##
 # `Version 1.2.0` l # Changes released: 05 - April - 2021 
 
 - [x]  *The code and the software interface were rebuilt.*
 - [x] *Some unnecessary parts of the code have been removed.*
-
+##
 # `Version 1.2` l # Changes released: 04 - July - 2020
 
 - [x]  *Animations and textures section were added. (They arent fully ready yet)*
 - [x]  *Added a custom way to view animations using [Clara.io](http://clara.io/).*
 - [x]  *Currently only the ped.ifp library was added in Animations.*
 - [x]  *Adjustments were made in the [Bunifu](https://bunifuframework.com/) interface.*
-
+##
 # `Version 1.0` l # Changes released: 17 - May - 2020
 
 - [x]  *Now you can move the panel by selecting any region of the form.*
