@@ -1,6 +1,3 @@
-
-#[](https://emojiart.org/)
-
 ## 💾 - VisualTexture v2
 ![enter image description here](https://media.discordapp.net/attachments/559900721252925458/848858048557744158/unknown.png)
 
@@ -12,9 +9,6 @@ This tool allows you to `generate hexcolor's`, `view samp textures`, `animations
 
 - Source Old:
 [![Build Process](https://i.imgur.com/KZYyFtk.png)](https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP)  
-- Extension Web: [
-![enter image description here](https://i.imgur.com/Abel0Hl.png)
-](https://github.com/KaizerHind/PreviewAnims)
 
 
 - **Note: Is important download in your NuGet Packages inside of VisualStudio the following elements ['cef.redist.x64, cef.redist.x86, CefSharp.Common y CefSharp.CWinForms'](https://www.mediafire.com/file/w64043xcnqmar42/packages.rar/file) and install the reference 'Bunifu' that is compressed in the project.**
