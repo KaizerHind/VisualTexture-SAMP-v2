@@ -2173,6 +2173,16 @@ namespace VisualTexture_v2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap car_50px {
+            get {
+                object obj = ResourceManager.GetObject("car_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap carfx1 {
             get {
                 object obj = ResourceManager.GetObject("carfx1", resourceCulture);
@@ -3966,6 +3976,16 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap desgreengrass {
             get {
                 object obj = ResourceManager.GetObject("desgreengrass", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap development_50px {
+            get {
+                object obj = ResourceManager.GetObject("development_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6286,6 +6306,16 @@ namespace VisualTexture_v2.Properties {
         internal static System.Drawing.Bitmap mallextmid01 {
             get {
                 object obj = ResourceManager.GetObject("mallextmid01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap man_50px {
+            get {
+                object obj = ResourceManager.GetObject("man_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
