@@ -30,6 +30,7 @@ namespace VisualTexture_v2.Sections
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pawncp));
             this.btnClose = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
@@ -51,12 +52,15 @@ namespace VisualTexture_v2.Sections
             this.bnfElipse = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.lbl_Title = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.VehBrowser = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnSkins = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnSpray = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnCPicker = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnTextures = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnAnimations = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnHome = new Bunifu.Framework.UI.BunifuFlatButton();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.btnSpray = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel2.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -85,7 +89,7 @@ namespace VisualTexture_v2.Sections
             this.btnClose.IconVisible = true;
             this.btnClose.IconZoom = 90D;
             this.btnClose.IsTab = false;
-            this.btnClose.Location = new System.Drawing.Point(821, -1);
+            this.btnClose.Location = new System.Drawing.Point(821, -4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Normalcolor = System.Drawing.Color.DarkRed;
             this.btnClose.OnHovercolor = System.Drawing.Color.Maroon;
@@ -143,8 +147,8 @@ namespace VisualTexture_v2.Sections
             // 
             this.toolStripLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(153, 15);
-            this.toolStripLabel1.Text = "        PAWN Color by _Zume";
+            this.toolStripLabel1.Size = new System.Drawing.Size(156, 15);
+            this.toolStripLabel1.Text = "         PAWN Color by _Zume";
             // 
             // label7
             // 
@@ -307,6 +311,9 @@ namespace VisualTexture_v2.Sections
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.VehBrowser);
+            this.panel1.Controls.Add(this.bunifuFlatButton1);
+            this.panel1.Controls.Add(this.btnSkins);
             this.panel1.Controls.Add(this.btnSpray);
             this.panel1.Controls.Add(this.btnCPicker);
             this.panel1.Controls.Add(this.btnTextures);
@@ -315,9 +322,154 @@ namespace VisualTexture_v2.Sections
             this.panel1.Controls.Add(this.lbl_Title);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(189, 449);
+            this.panel1.Size = new System.Drawing.Size(198, 449);
             this.panel1.TabIndex = 3;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            // 
+            // VehBrowser
+            // 
+            this.VehBrowser.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.VehBrowser.BackColor = System.Drawing.Color.Transparent;
+            this.VehBrowser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.VehBrowser.BorderRadius = 0;
+            this.VehBrowser.ButtonText = "    VehicleViewer";
+            this.VehBrowser.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.VehBrowser.DisabledColor = System.Drawing.Color.Gray;
+            this.VehBrowser.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.VehBrowser.Iconcolor = System.Drawing.Color.Transparent;
+            this.VehBrowser.Iconimage = global::VisualTexture_v2.Properties.Resources.car_50px;
+            this.VehBrowser.Iconimage_right = null;
+            this.VehBrowser.Iconimage_right_Selected = null;
+            this.VehBrowser.Iconimage_Selected = null;
+            this.VehBrowser.IconMarginLeft = 12;
+            this.VehBrowser.IconMarginRight = 0;
+            this.VehBrowser.IconRightVisible = true;
+            this.VehBrowser.IconRightZoom = 0D;
+            this.VehBrowser.IconVisible = true;
+            this.VehBrowser.IconZoom = 60D;
+            this.VehBrowser.IsTab = false;
+            this.VehBrowser.Location = new System.Drawing.Point(8, 454);
+            this.VehBrowser.Margin = new System.Windows.Forms.Padding(4);
+            this.VehBrowser.Name = "VehBrowser";
+            this.VehBrowser.Normalcolor = System.Drawing.Color.Transparent;
+            this.VehBrowser.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.VehBrowser.OnHoverTextColor = System.Drawing.Color.White;
+            this.VehBrowser.selected = false;
+            this.VehBrowser.Size = new System.Drawing.Size(170, 57);
+            this.VehBrowser.TabIndex = 14;
+            this.VehBrowser.Text = "    VehicleViewer";
+            this.VehBrowser.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.VehBrowser.Textcolor = System.Drawing.Color.White;
+            this.VehBrowser.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // bunifuFlatButton1
+            // 
+            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.bunifuFlatButton1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton1.BorderRadius = 0;
+            this.bunifuFlatButton1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.bunifuFlatButton1.ButtonText = "";
+            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton1.Iconimage = global::VisualTexture_v2.Properties.Resources.development_50px;
+            this.bunifuFlatButton1.Iconimage_right = null;
+            this.bunifuFlatButton1.Iconimage_right_Selected = null;
+            this.bunifuFlatButton1.Iconimage_Selected = null;
+            this.bunifuFlatButton1.IconMarginLeft = 0;
+            this.bunifuFlatButton1.IconMarginRight = 0;
+            this.bunifuFlatButton1.IconRightVisible = true;
+            this.bunifuFlatButton1.IconRightZoom = 0D;
+            this.bunifuFlatButton1.IconVisible = true;
+            this.bunifuFlatButton1.IconZoom = 100D;
+            this.bunifuFlatButton1.IsTab = false;
+            this.bunifuFlatButton1.Location = new System.Drawing.Point(60, 37);
+            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
+            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton1.selected = false;
+            this.bunifuFlatButton1.Size = new System.Drawing.Size(50, 50);
+            this.bunifuFlatButton1.TabIndex = 10;
+            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // btnSkins
+            // 
+            this.btnSkins.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.btnSkins.BackColor = System.Drawing.Color.Transparent;
+            this.btnSkins.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSkins.BorderRadius = 0;
+            this.btnSkins.ButtonText = "    SkinViewer";
+            this.btnSkins.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSkins.DisabledColor = System.Drawing.Color.Gray;
+            this.btnSkins.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.btnSkins.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnSkins.Iconimage = global::VisualTexture_v2.Properties.Resources.man_50px;
+            this.btnSkins.Iconimage_right = null;
+            this.btnSkins.Iconimage_right_Selected = null;
+            this.btnSkins.Iconimage_Selected = null;
+            this.btnSkins.IconMarginLeft = 12;
+            this.btnSkins.IconMarginRight = 0;
+            this.btnSkins.IconRightVisible = true;
+            this.btnSkins.IconRightZoom = 0D;
+            this.btnSkins.IconVisible = true;
+            this.btnSkins.IconZoom = 60D;
+            this.btnSkins.IsTab = false;
+            this.btnSkins.Location = new System.Drawing.Point(8, 394);
+            this.btnSkins.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSkins.Name = "btnSkins";
+            this.btnSkins.Normalcolor = System.Drawing.Color.Transparent;
+            this.btnSkins.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.btnSkins.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnSkins.selected = false;
+            this.btnSkins.Size = new System.Drawing.Size(170, 57);
+            this.btnSkins.TabIndex = 9;
+            this.btnSkins.Text = "    SkinViewer";
+            this.btnSkins.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSkins.Textcolor = System.Drawing.Color.White;
+            this.btnSkins.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // btnSpray
+            // 
+            this.btnSpray.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.btnSpray.BackColor = System.Drawing.Color.Transparent;
+            this.btnSpray.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSpray.BorderRadius = 0;
+            this.btnSpray.ButtonText = "    SpriteViewer";
+            this.btnSpray.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSpray.DisabledColor = System.Drawing.Color.Gray;
+            this.btnSpray.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.btnSpray.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnSpray.Iconimage = global::VisualTexture_v2.Properties.Resources.spray50px;
+            this.btnSpray.Iconimage_right = null;
+            this.btnSpray.Iconimage_right_Selected = null;
+            this.btnSpray.Iconimage_Selected = null;
+            this.btnSpray.IconMarginLeft = 12;
+            this.btnSpray.IconMarginRight = 0;
+            this.btnSpray.IconRightVisible = true;
+            this.btnSpray.IconRightZoom = 0D;
+            this.btnSpray.IconVisible = true;
+            this.btnSpray.IconZoom = 60D;
+            this.btnSpray.IsTab = false;
+            this.btnSpray.Location = new System.Drawing.Point(8, 334);
+            this.btnSpray.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSpray.Name = "btnSpray";
+            this.btnSpray.Normalcolor = System.Drawing.Color.Transparent;
+            this.btnSpray.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.btnSpray.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnSpray.selected = false;
+            this.btnSpray.Size = new System.Drawing.Size(170, 57);
+            this.btnSpray.TabIndex = 8;
+            this.btnSpray.Text = "    SpriteViewer";
+            this.btnSpray.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSpray.Textcolor = System.Drawing.Color.White;
+            this.btnSpray.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpray.Click += new System.EventHandler(this.btnSpray_Click);
             // 
             // btnCPicker
             // 
@@ -361,7 +513,7 @@ namespace VisualTexture_v2.Sections
             this.btnTextures.BackColor = System.Drawing.Color.Transparent;
             this.btnTextures.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTextures.BorderRadius = 0;
-            this.btnTextures.ButtonText = "    Textures";
+            this.btnTextures.ButtonText = "    TextureViewer";
             this.btnTextures.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTextures.DisabledColor = System.Drawing.Color.Gray;
             this.btnTextures.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
@@ -386,7 +538,7 @@ namespace VisualTexture_v2.Sections
             this.btnTextures.selected = false;
             this.btnTextures.Size = new System.Drawing.Size(170, 57);
             this.btnTextures.TabIndex = 3;
-            this.btnTextures.Text = "    Textures";
+            this.btnTextures.Text = "    TextureViewer";
             this.btnTextures.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTextures.Textcolor = System.Drawing.Color.White;
             this.btnTextures.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -398,7 +550,7 @@ namespace VisualTexture_v2.Sections
             this.btnAnimations.BackColor = System.Drawing.Color.Transparent;
             this.btnAnimations.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAnimations.BorderRadius = 0;
-            this.btnAnimations.ButtonText = "    Animations";
+            this.btnAnimations.ButtonText = "    AnimViewer";
             this.btnAnimations.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAnimations.DisabledColor = System.Drawing.Color.Gray;
             this.btnAnimations.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
@@ -423,7 +575,7 @@ namespace VisualTexture_v2.Sections
             this.btnAnimations.selected = false;
             this.btnAnimations.Size = new System.Drawing.Size(170, 57);
             this.btnAnimations.TabIndex = 2;
-            this.btnAnimations.Text = "    Animations";
+            this.btnAnimations.Text = "    AnimViewer";
             this.btnAnimations.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAnimations.Textcolor = System.Drawing.Color.White;
             this.btnAnimations.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -435,7 +587,7 @@ namespace VisualTexture_v2.Sections
             this.btnHome.BackColor = System.Drawing.Color.Transparent;
             this.btnHome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnHome.BorderRadius = 0;
-            this.btnHome.ButtonText = "    Inicio";
+            this.btnHome.ButtonText = "    Index";
             this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnHome.DisabledColor = System.Drawing.Color.Gray;
             this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
@@ -460,7 +612,7 @@ namespace VisualTexture_v2.Sections
             this.btnHome.selected = false;
             this.btnHome.Size = new System.Drawing.Size(170, 57);
             this.btnHome.TabIndex = 1;
-            this.btnHome.Text = "    Inicio";
+            this.btnHome.Text = "    Index";
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.Textcolor = System.Drawing.Color.White;
             this.btnHome.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -470,44 +622,7 @@ namespace VisualTexture_v2.Sections
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // btnSpray
-            // 
-            this.btnSpray.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
-            this.btnSpray.BackColor = System.Drawing.Color.Transparent;
-            this.btnSpray.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSpray.BorderRadius = 0;
-            this.btnSpray.ButtonText = "    SpriteBrowser";
-            this.btnSpray.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSpray.DisabledColor = System.Drawing.Color.Gray;
-            this.btnSpray.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.btnSpray.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnSpray.Iconimage = global::VisualTexture_v2.Properties.Resources.spray50px;
-            this.btnSpray.Iconimage_right = null;
-            this.btnSpray.Iconimage_right_Selected = null;
-            this.btnSpray.Iconimage_Selected = null;
-            this.btnSpray.IconMarginLeft = 12;
-            this.btnSpray.IconMarginRight = 0;
-            this.btnSpray.IconRightVisible = true;
-            this.btnSpray.IconRightZoom = 0D;
-            this.btnSpray.IconVisible = true;
-            this.btnSpray.IconZoom = 60D;
-            this.btnSpray.IsTab = false;
-            this.btnSpray.Location = new System.Drawing.Point(8, 334);
-            this.btnSpray.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSpray.Name = "btnSpray";
-            this.btnSpray.Normalcolor = System.Drawing.Color.Transparent;
-            this.btnSpray.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
-            this.btnSpray.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnSpray.selected = false;
-            this.btnSpray.Size = new System.Drawing.Size(170, 57);
-            this.btnSpray.TabIndex = 8;
-            this.btnSpray.Text = "    SpriteBrowser";
-            this.btnSpray.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSpray.Textcolor = System.Drawing.Color.White;
-            this.btnSpray.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSpray.Click += new System.EventHandler(this.btnSpray_Click);
-            // 
-            // Pawncp1
+            // Pawncp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -517,7 +632,8 @@ namespace VisualTexture_v2.Sections
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Pawncp1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Pawncp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Pawncp1_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Pawncp1_MouseDown);
@@ -561,5 +677,8 @@ namespace VisualTexture_v2.Sections
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Timer timer1;
         private Bunifu.Framework.UI.BunifuFlatButton btnSpray;
+        private Bunifu.Framework.UI.BunifuFlatButton btnSkins;
+        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
+        private Bunifu.Framework.UI.BunifuFlatButton VehBrowser;
     }
 }
