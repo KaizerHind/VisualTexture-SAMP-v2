@@ -1,0 +1,59 @@
+name: .NET
+
+on:
+  push:
+    branches: [ "v2-BETA" ]
+  pull_request:
+    branches: [ "v2-BETA" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 7.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore
+    
+  NotifyIssues:
+    runs-on: ubuntu-latest
+    needs: build
+    if: ${{ failure() && contains(needs.build.result, 'failure') }}
+    steps:
+    - name: Notify Issue
+      uses: rjstone/discord-webhook-notify@v1
+      with:
+        severity: error
+        username: Github
+        color: '#f54254'
+        avatarUrl: https://github.githubassets.com/images/modules/logos_page/Octocat.png
+        description: "Fallo al compilar VisualTexture."
+        details: "Commit '${{github.event.head_commit.message}}' - ${{github.event.head_commit.author.name}}"
+        footer: "Build Failed: ${{github.run_number}}"
+        text: ''
+        webhookUrl: ${{ secrets.WEBHOOK_URL }}
+
+  NotifySuccess:
+    runs-on: ubuntu-latest
+    needs: build
+    if: ${{ success() && contains(needs.build.result, 'success') }}
+    steps:
+    - name: Notify Success
+      uses: rjstone/discord-webhook-notify@v1
+      with:
+        severity: info
+        username: Github
+        color: '#42f58a'
+        avatarUrl: https://github.githubassets.com/images/modules/logos_page/Octocat.png
+        description: "VisualTexture compilado sin errores."
+        details: "Commit '${{github.event.head_commit.message}}' - ${{github.event.head_commit.author.name}}"
+        footer: "Build Succeeded: ${{github.run_number}}"
+        text: ''
+        webhookUrl: ${{ secrets.WEBHOOK_URL }}
